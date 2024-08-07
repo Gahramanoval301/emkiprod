@@ -1,8 +1,11 @@
 import React from 'react'
+import PageContainer from '../components/common_/PageContainer'
 
 const Sponsors = () => {
   return (
-    <div>Sponsors</div>
+    <PageContainer>
+      <div>Sponsors</div>
+    </PageContainer>
   )
 }
 
