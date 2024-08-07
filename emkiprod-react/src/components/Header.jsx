@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import logo from '/assets/logo.png';
 
 const Header = () => {
   return (
@@ -29,13 +30,6 @@ const Header = () => {
               </div>
           </div>
           <p className='font-bold text-3xl text-amber-600'>Tailwind</p>
-          <Routes>
-              <Route path='/' element={<Home />} />
-              <Route path='/events' element={<Events />} />
-              <Route path='/blogs' element={<Blogs />} />
-              <Route path='/sponsors' element={<Sponsors />} />
-              <Route path='about' element={<About />} />
-          </Routes>
       </div>  )
 }
 
