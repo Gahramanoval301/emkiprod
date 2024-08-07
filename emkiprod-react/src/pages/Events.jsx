@@ -1,8 +1,11 @@
 import React from 'react'
+import PageContainer from '../components/common_/PageContainer'
 
 const Events = () => {
   return (
-    <div>Events</div>
+    <PageContainer>
+      <div>Events</div>
+    </PageContainer>
   )
 }
 
