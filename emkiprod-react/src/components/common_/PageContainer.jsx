@@ -5,12 +5,11 @@ import Footer from '../Footer'
 const PageContainer = ({ children }) => {
     return (
         <>
-            <Header/>
+            <Header />
             <main>
-
                 {children}
             </main>
-            <Footer/>
+            <Footer />
         </>
     )
 }
