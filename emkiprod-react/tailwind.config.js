@@ -7,8 +7,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary:'#101426',
+        primary: {
+          default: '#101426',
+          light: '#192038',
+        },
         secondary: '#151A30',
+<<<<<<< HEAD
         white: '#F7F9FC',
         pink:"#E32682",
       },
@@ -22,6 +26,11 @@ export default {
         'lg': '1024px',
         'xl': '1280px',
         'xs' : '350px'
+=======
+        white_: '#F7F9FC',
+        pink: "#E32682",
+        
+>>>>>>> 9cecfadf5bb5e672e52036b92cb67621db0e3655
       }
     },
   },
