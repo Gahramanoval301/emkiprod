@@ -1,12 +1,15 @@
-import React from 'react'
-import PageContainer from '../components/common_/PageContainer'
+import React from "react";
+import PageContainer from "../components/common_/PageContainer";
+import HomeBlogs from "../components/HomeBlogs";
+import SponsorRow from "../components/SponsorRow";
 
 const Home = () => {
   return (
     <PageContainer>
-      <div>Home</div>
+      <HomeBlogs />
+      <SponsorRow />
     </PageContainer>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
