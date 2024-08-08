@@ -4,7 +4,7 @@ import ValueCard from "../components/ValueCard";
 
 const OurValues = () => {
   return (
-    <div className="our-values-section text-white p-10">
+    <div className="our-values-section text-white section">
       <div className="w-80 flex items-center justify-center mb-8">
         <h4 className="inline-block font-semibold text-3xl">Our Values</h4>
       </div>
