@@ -1,36 +1,83 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import logo from '/assets/logo.png';
+import logo from '/assets/img/logo.svg';
+import rectangle from '/assets/img/rectangle.svg';
+import './../styles/header.css'
+import { FaChevronDown, FaChevronUp } from "react-icons/fa";
+import { IoTicket } from "react-icons/io5";
+import HeroSliderMobile from './HeroSliderMobile';
+import HeroSliderDesktop from './HeroSliderDesktop';
+import { FaCircleArrowRight } from "react-icons/fa6";
+
+const lang = ['EN', 'AZ', 'RU']
+
 
 const Header = () => {
-  return (
-      <div>
-          <div className='header flex justify-around'>
-              <div>
-                  <img src={logo} alt="logo" />
-              </div>
-              <div className='flex h-16 gap-3 navbar'>
-                  <div className='flex gap-3 h-12 w-full pt-3 nav'>
-                      <Link to={'/'}>Home</Link>
-                      <Link to={'/events'}>Events</Link>
-                      <Link to={'/blogs'}>Blogs</Link>
-                      <Link to={'/sponsors'}>Sponsors</Link>
-                      <Link to={'/about'}>About Us</Link>
-                  </div>
-              </div>
-              <div className='flex gap-3'>
-                  <select name="" id="select">
-                      <option value="EN">EN</option>
-                      <option value="AZ">AZ</option>
-                      <option value="RU">RU</option>
-                  </select>
-                  <div>
-                      <button className='bg-white text-black'>Buy ticket</button>
-                  </div>
-              </div>
-          </div>
-          <p className='font-bold text-3xl text-amber-600'>Tailwind</p>
-      </div>  )
+    const [index, setIndex] = useState(0)
+    const [flag, setFlag] = useState(true)
+    const [show, setShow] = useState(true)
+
+    return (
+        <div className='hero'>
+            <header onClick={() => { !flag && setFlag(!flag) }} className='w-full text-white'>
+                <nav className='flex lg:w-[90%] w-full m-auto justify-between bg-primary py-6 px-8 rounded-none items-center lg:rounded-bl-24 lg:rounded-br-24'>
+                    <div onClick={() => setShow(!show)} className='flex lg:hidden flex-col gap-[6px] hamburger cursor-pointer'>
+                        <img className={`select-none transition-transform duration-300 ${!show ? 'rotate-45 translate-y-2' : 'rotate-0'}`} src={rectangle} />
+                        <img className={`select-none transition-transform duration-300 ${!show ? '-rotate-45' : 'rotate-0'}`} src={rectangle} />
+                    </div>
+                    <img className='w-20 lg:w-[119px]' src={logo} alt="logo" />
+                    <div className=' hidden lg:block'>
+                        <Link className='mx-3 hover:text-[#e32682] transition-all duration-500' to='/'>Home</Link>
+                        <Link className='mx-3 hover:text-[#e32682] transition-all duration-500' to='/events'>Events</Link>
+                        <Link className='mx-3 hover:text-[#e32682] transition-all duration-500' to='/blogs'>Blogs</Link>
+                        <Link className='mx-3 hover:text-[#e32682] transition-all duration-500' to='/sponsors'>Sponsors</Link>
+                        <Link className='mx-3 hover:text-[#e32682] transition-all duration-500' to='/about'>About Us</Link>
+                    </div>
+                    <div className='flex items-center'>
+                        <div className='relative hidden lg:block'>
+                            <div className='flex items-center text-base cursor-pointer select-none' onClick={() => setFlag(!flag)}>{lang[index]}{flag ? <FaChevronDown className='w-3 mx-2' /> : <FaChevronUp className='w-3 mx-2' />}</div>
+                            <div style={flag ? { display: 'none' } : { display: 'block' }} className='absolute top-full mt-2  text-white bg-secondary z-50'>
+                                {lang.map((elem, i) => ((i !== index) && <div key={i} className='text-base cursor-pointer px-4 py-2 hover:bg-[#111526]' onClick={() => { setIndex(i); setFlag(!flag) }}>{elem}</div>))}
+                            </div>
+                        </div>
+                        <div className='text-[#101426] font-medium text-xl ml-6 hover:text-[#fff]  transition-all duration-500 headerBuyTicket'>
+                            <button className='bg-white px-8 py-2 rounded-lg align-middle hidden lg:inline-block'>Buy Ticket</button>
+                            <button className='bg-white px-2 py-2 rounded-lg align-middle mx-[1px]'><IoTicket className='w-5 h-7' /></button>
+                        </div>
+                    </div>
+                </nav>
+                {/*  H A M B U R G E R   M E N U  */}
+                <div className={`xs:w-64 w-full pt-16 h-full px-4 bg-white fixed z-[999] ${show && 'close'} duration-500`}>
+                    <div className='mx-3 relative border-[#C5CEE0] border-[1px] w-14 h-8 flex items-center justify-center'>
+                        <div className='flex items-center text-base text-primary cursor-pointer select-none' onClick={() => setFlag(!flag)}>{lang[index]}{flag ? <FaChevronDown className='w-3 mx-2' /> : <FaChevronUp className='w-3 mx-2' />}</div>
+                        <div style={flag ? { display: 'none' } : { display: 'block' }} className='absolute top-full mt-2 bg-white  text-primary hamburger-lang'>
+                            {lang.map((elem, i) => ((i !== index) && <div key={i} className='text-base cursor-pointer px-4 py-2' onClick={() => { setIndex(i); setFlag(!flag) }}>{elem}</div>))}
+                        </div>
+                    </div>
+
+                    <div className='flex flex-col gap-4 mt-7'>
+                        <Link className='mx-3 hover:text-[#e32682] text-primary transition-all duration-500' to='/'>Home</Link>
+                        <Link className='mx-3 hover:text-[#e32682] text-primary transition-all duration-500' to='/events'>Events</Link>
+                        <Link className='mx-3 hover:text-[#e32682] text-primary transition-all duration-500' to='/blogs'>Blogs</Link>
+                        <Link className='mx-3 hover:text-[#e32682] text-primary transition-all duration-500' to='/sponsors'>Sponsors</Link>
+                        <Link className='mx-3 hover:text-[#e32682] text-primary transition-all duration-500' to='/about'>About Us</Link>
+                    </div>
+                </div>
+                {/*  H E R O  */}
+                <div className='w-10/12 m-auto flex gap-10 overflow-hidden'>
+                    <div className='sm:w-[100%] mt-11 pt-14'>
+                        <h1 className='text-4xl md:text-7xl font-semibold  whitespace-normal mb-10'>Elevate Your Concert Experience</h1>
+                        <p className='whitespace-normal text-base font-normal mb-7'>Welcome to the ultimate destination for music enthusiasts and concert-goers! At EMKI Production, we're passionate about bringing you the very best in live music experiences. Whether you're a die-hard fan or a casual listener, we've got something special in store for you.</p>
+                        <button className='bg-white px-8 py-2 rounded-lg align-middle   text-primary flex gap-3 items-center hover:bg-[#e32682] hover:text-[#fff] transition-all duration-500'>Events <FaCircleArrowRight />  </button>
+                    </div>
+                    <div className='w-4/5'>
+                        <HeroSliderDesktop />
+                    </div>
+                </div>
+            </header>
+            <HeroSliderMobile />
+        </div>
+    )
 }
 
 export default Header
