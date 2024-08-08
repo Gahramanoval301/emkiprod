@@ -4,7 +4,7 @@
 
 @layer components {
     .section {
-        @apply container mx-auto px-3 my-10
+        @apply container mx-auto px-10 my-10
     }
     .transition-classic{
         @apply duration-300 ease-in-out transition-all;        
