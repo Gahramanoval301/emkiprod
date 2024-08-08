@@ -8,8 +8,8 @@ function BlogCard() {
           <img src="/assets/blog-card-img.png" alt="card image" className="" />
         </div>
         <div className="z-[102] flex items-center justify-between relative top-[-60px] p-[15px]">
-          <h4 className="whitespace-nowrap text-white font-medium text-2xl overflow-hidden">
-            Thomas Anders’s Baku concert
+          <h4 className="whitespace-nowrap text-white_ font-medium text-2xl overflow-hidden">
+            Thomas Anders&apos;s Baku concert
           </h4>
         </div>
         <div className="bg-[#101426] flex h-[90px] relative top-[-80px] items-end border-[1px] border-solid border-[#192038] rounded-b-3xl px-[20px] py-[10px] transition ease-in-out delay-400 hover:bg-[#fff]">
