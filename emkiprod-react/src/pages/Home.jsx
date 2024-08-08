@@ -7,9 +7,9 @@ import OurValues from "./OurValues";
 const Home = () => {
   return (
     <PageContainer>
+      <OurValues />
       <HomeBlogs />
       <SponsorRow />
-      <OurValues />
     </PageContainer>
   );
 };
