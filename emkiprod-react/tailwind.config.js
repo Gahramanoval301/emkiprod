@@ -7,10 +7,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary:'#101426',
+        primary: {
+          default: '#101426',
+          light: '#192038',
+        },
         secondary: '#151A30',
-        white: '#F7F9FC',
-        pink:"#E32682",
+        white_: '#F7F9FC',
+        pink: "#E32682",
+        
       }
     },
   },
