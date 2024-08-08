@@ -12,8 +12,7 @@ export default {
           light: '#192038',
         },
         secondary: '#151A30',
-<<<<<<< HEAD
-        white: '#F7F9FC',
+        white_: '#F7F9FC',
         pink:"#E32682",
       },
       borderRadius: {
@@ -26,11 +25,7 @@ export default {
         'lg': '1024px',
         'xl': '1280px',
         'xs' : '350px'
-=======
-        white_: '#F7F9FC',
-        pink: "#E32682",
         
->>>>>>> 9cecfadf5bb5e672e52036b92cb67621db0e3655
       }
     },
   },
