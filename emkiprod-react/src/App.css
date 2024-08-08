@@ -30,3 +30,14 @@ a {
   background: none;
   color: white;
 }
+.our-values {
+  background: linear-gradient(256.54deg, #151A30 0%, #211D4D 27.59%, #271630 68.97%, #0F1836 98.09%);
+  width: 85%;
+  margin: 0 auto;
+}
+.box {
+  gap: 19px;
+}
+.our-values {
+  height: 544px;
+}
