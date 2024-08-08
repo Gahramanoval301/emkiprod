@@ -48,14 +48,14 @@ const Header = () => {
                 </nav>
                 {/*  H A M B U R G E R   M E N U  */}
                 <div className={`xs:w-64 w-full pt-16 h-full px-4 bg-white fixed z-[999] ${show && 'close'} duration-500`}>
-                    <div className='mx-3 relative border-[#C5CEE0] border-[1px] w-14 h-8 flex items-center justify-center'>
-                        <div className='flex items-center text-base text-primary cursor-pointer select-none' onClick={() => setFlag(!flag)}>{lang[index]}{flag ? <FaChevronDown className='w-3 mx-2' /> : <FaChevronUp className='w-3 mx-2' />}</div>
-                        <div style={flag ? { display: 'none' } : { display: 'block' }} className='absolute top-full mt-2 bg-white_  text-primary hamburger-lang'>
+                    <div className='mx-3  relative border-[#C5CEE0] border-[1px] w-14 h-8 flex items-center justify-center text-primary-default' >
+                        <div className='flex items-center text-base text-primary cursor-pointer select-none p-1' onClick={() => setFlag(!flag)}>{lang[index]}{flag ? <FaChevronDown className='w-3 mx-2' /> : <FaChevronUp className='w-3 mx-2' />}</div>
+                        <div style={flag ? { display: 'none' } : { display: 'block' }} className='absolute top-full mt-2 bg-white_ text-primary hamburger-lang '>
                             {lang.map((elem, i) => ((i !== index) && <div key={i} className='text-base cursor-pointer px-4 py-2' onClick={() => { setIndex(i); setFlag(!flag) }}>{elem}</div>))}
                         </div>
                     </div>
 
-                    <div className='flex flex-col gap-4 mt-7'>
+                    <div className='flex flex-col gap-4 mt-7 text-primary-default font-semibold tracking-wider text-xl'>
                         <Link className='mx-3 hover:text-[#e32682] text-primary transition-all duration-500' to='/'>Home</Link>
                         <Link className='mx-3 hover:text-[#e32682] text-primary transition-all duration-500' to='/events'>Events</Link>
                         <Link className='mx-3 hover:text-[#e32682] text-primary transition-all duration-500' to='/blogs'>Blogs</Link>
@@ -64,7 +64,7 @@ const Header = () => {
                     </div>
                 </div>
                 {/*  H E R O  */}
-                <div className='w-10/12 m-auto flex gap-10 overflow-hidden'>
+                {/* <div className='w-10/12 m-auto flex gap-10 overflow-hidden'>
                     <div className='sm:w-[100%] mt-11 pt-14'>
                         <h1 className='text-4xl md:text-7xl font-semibold  whitespace-normal mb-10'>Elevate Your Concert Experience</h1>
                         <p className='whitespace-normal text-base font-normal mb-7'>Welcome to the ultimate destination for music enthusiasts and concert-goers! At EMKI Production, we&apos;re passionate about bringing you the very best in live music experiences. Whether you&apos;re a die-hard fan or a casual listener, we&apos;ve got something special in store for you.</p>
@@ -73,7 +73,7 @@ const Header = () => {
                     <div className='w-4/5'>
                         <HeroSliderDesktop />
                     </div>
-                </div>
+                </div> */}
             </header>
             <HeroSliderMobile />
         </div>

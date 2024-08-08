@@ -13,6 +13,7 @@ export default {
         },
         secondary: '#151A30',
         white_: '#F7F9FC',
+        white_shadow:"#EDF1F7",
         pink:"#E32682",
       },
       borderRadius: {
