@@ -10,7 +10,6 @@ const BlogsSlider = () => {
       modules={[Navigation, Pagination, A11y]}
       slidesPerView={3}
       pagination={{ clickable: true }}
-      onSwiper={(swiper) => console.log(swiper)}
       className="pb-14"
     >
       <SwiperSlide>
