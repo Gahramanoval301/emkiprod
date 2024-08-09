@@ -6,10 +6,12 @@ import DiscoverEvents from "../components/DiscoverEvents";
 import OurValues from "./OurValues";
 import HomeHead from "../components/HomeHead";
 import HeroSliderMobile from "../components/HeroSliderMobile";
+import Hero from "../components/Hero";
 
 const Home = () => {
   return (
     <PageContainer >
+      <Hero />
       <DiscoverEvents />
       <OurValues />
       <HomeBlogs />
