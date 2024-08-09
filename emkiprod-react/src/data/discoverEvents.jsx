@@ -80,5 +80,4 @@ export const discoverEventsData = [
         location:"Ramada by Wyndham",
         ticketURL: "",
     },
-
 ]
