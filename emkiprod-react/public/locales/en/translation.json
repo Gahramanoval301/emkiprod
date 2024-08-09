@@ -1,7 +1,47 @@
 {
-  "title": "Welcome to react using react-i18next",
-  "description": {
-    "part1": "To get started, edit <1>src/App.js</1> and save to reload.",
-    "part2": "Switch language between english and german using buttons above."
-  }
+  "common":{
+    "readmore":"Read More",
+    "contact":"Contact",
+    "social":"Social",
+    "facebook":"Facebook",
+    "instagram":"Instagram",
+    "linkedin":"Linkedin",
+    "information":"Information",
+    "aboutus":"About Us",
+    "sponsor":"Sponsor"
+  },
+  "navbar":{
+    "home":"Home",
+    "aboutus":"About Us",
+    "events":"Events",
+    "blogs":"Blogs",
+    "sponsors":"Sponsors",
+    "buytickets":"Buy Tickets"
+
+    
+    
+    
+  },
+  "home":{
+    "elevateyourconcertexperience":"Elevate Your Concert Experience",
+    "welcometotheultimatedestinationformusicenthusiastsandconcertgoersatemkiproductionwerepassionateaboutbringingyoutheverybestinlivemusicexperienceswhetheryoureadiehardfanoracasuallistenerwevegotsomethingspecialinstoreforyou":"Welcome to the ultimate destination for music enthusiasts and concert-goers! At EMKI Production, we're passionate about bringing you the very best in live music experiences. Whether you're a die-hard fan or a casual listener, we've got something special in store for you.",
+    "discoverevents":"Discover Events",
+    "ourvalues":"Our Values",
+    "trust":"Trust",
+    "wealwaysgivehonestfeedbackandpracticalsuggestionstohelpyou":"We always give honest feedback and practical suggestions to help you",
+    "innovation":"Innovation",
+    "oureventsarecarefullyplannedtomeetthegoalsofmodernbusinesses":"Our events are carefully planned to meet the goals of modern businesses.",
+    "transparency":"Transparency",
+    "wehelpyouunderstandeverythingbyclearlypresentinginformation":"We help you understand everything by clearly presenting information",
+    "collaboration":"Collaboration",
+    "weapproacheveryengagementwithconfidenceinourabilitytoforgealongtermrelationships":"We approach every engagement with confidence in our ability to forge a long-term relationships.",
+    "haveaproject":"Have a Project?",
+    "showyoureventtotheworldthroughanyplatformweareleadersinstreamingandbroadcastservicesforeventsofferingconsultingservicesanddevelopmentofcompletesystemsforourclientsineventbroadcasting":"Show your event to the world through any platform. We are leaders in streaming and broadcast services for events, offering consulting services and development of complete systems for our clients in event broadcasting."
+
+  },
+  "about":{},
+  "events":{},
+  "blogs":{},
+  "sponsors":{},
+  "notFound":{}
 }
