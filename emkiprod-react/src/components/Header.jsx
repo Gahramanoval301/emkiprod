@@ -5,6 +5,7 @@ import rectangle from '/assets/img/rectangle.svg';
 import './../styles/header.css'
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 import { IoTicket } from "react-icons/io5";
+import LanguageSelector from './LanguageSelector';
 
 const lang = ['EN', 'AZ', 'RU']
 
@@ -30,7 +31,8 @@ const Header = () => {
                         <Link className='mx-3 hover:text-[#e32682] transition-all duration-500' to='/sponsors'>Sponsors</Link>
                         <Link className='mx-3 hover:text-[#e32682] transition-all duration-500' to='/about'>About Us</Link>
                     </div>
-                    <div className='flex items-center'>
+                    <LanguageSelector/>
+                    {/* <div className='flex items-center'>
                         <div className='relative hidden lg:block'>
                             <div className='flex items-center text-base cursor-pointer select-none' onClick={() => setFlag(!flag)}>{lang[index]}{flag ? <FaChevronDown className='w-3 mx-2' /> : <FaChevronUp className='w-3 mx-2' />}</div>
                             <div style={flag ? { display: 'none' } : { display: 'block' }} className='absolute top-full mt-2  text-white_ bg-secondary z-50'>
@@ -41,7 +43,7 @@ const Header = () => {
                             <button className='bg-white px-8 py-2 rounded-lg align-middle hidden lg:inline-block'>Buy Ticket</button>
                             <button className='bg-white px-2 py-2 rounded-lg align-middle mx-[1px]'><IoTicket className='w-5 h-7' /></button>
                         </div>
-                    </div>
+                    </div> */}
                 </nav>
                 {/*  H A M B U R G E R   M E N U  */}
                 <div className={`xs:w-64 w-full pt-16 h-full px-4 mt-14 bg-white fixed z-[500] ${show && 'close'} duration-500`}>
