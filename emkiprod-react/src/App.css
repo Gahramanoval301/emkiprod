@@ -63,3 +63,58 @@ a {
 .our-values {
   height: 544px;
 }
+.event {
+  width: 360px;
+}
+.events-section {
+  width: 85%;
+}
+.event-box img {
+  height: 375px !important;
+  width: 360px !important;
+  object-fit: cover !important;
+  border-radius: 1.5rem !important;
+}
+.section-reused {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  position: relative;
+}
+.section-reused:hover .event {
+  background-color: white;
+  color: #0F1836;
+  transition: 0.5s all ease;
+}
+.section-reused::before {
+  content: "";
+  position: absolute;
+  width: 80%;
+  height: 69%;
+  border-radius: 1.5rem;
+  background-color: black;
+  visibility: hidden;
+  opacity: 0.3;
+}
+.section-reused:hover::before {
+  visibility: visible;
+  transition: 0.5s all ease;
+}
+.overlay {
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  font-size: 1.2rem;
+  visibility: hidden;
+  background-color: white;
+  border-radius: .5rem;
+  padding: 10px 20px;
+  text-align: center;
+}
+.section-reused:hover .overlay {
+  visibility: visible;
+  transition: 0.3s all ease;
+}
+.overlay button {
+  font-family: Euclid Circular A, sans-serif;
+  font-weight: 500;
+}
