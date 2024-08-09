@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useTransition } from "react";
 import FooterCopyright from "./FooterCopyright";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+  const { t } = useTranslation();
   return (
     <section id="footer">
       <div className="border-[1px] border-[#222b45] border-style mt-[80px]">
@@ -14,7 +16,7 @@ const Footer = () => {
             <div className="flex justify-evenly w-full">
               <div className="footer-column">
                 <h3 className="text-[#f5f5f6] text-base mb-5 font-medium">
-                  Social
+                  {t("common.social")}
                 </h3>
                 <Link to="" target="_blank">
                   <div className="flex mb-3">
@@ -24,7 +26,7 @@ const Footer = () => {
                       alt="facebook"
                     />
                     <span className="text-[#E4E9F2] text-base font-normal">
-                      Facebook
+                      {t("common.facebook")}
                     </span>
                   </div>
                 </Link>
@@ -36,33 +38,33 @@ const Footer = () => {
                       alt="instagram"
                     />
                     <span className="text-[#E4E9F2] text-base font-normal">
-                      Instagram
+                      {t("common.instagram")}
                     </span>
                   </div>
                 </Link>
               </div>
               <div className="footer-column">
                 <h3 className="text-[#f5f5f6] text-base mb-5 font-medium">
-                  Information
+                  {t("common.information")}
                 </h3>
                 <Link to="">
                   <div className="flex mb-3">
                     <span className="text-[#E4E9F2] text-base font-normal">
-                      About us
+                      {t("common.aboutus")}
                     </span>
                   </div>
                 </Link>
                 <Link to="">
                   <div className="flex mb-3">
                     <span className="text-[#E4E9F2] text-base font-normal">
-                      Sponsor
+                      {t("common.sponsor")}
                     </span>
                   </div>
                 </Link>
               </div>
               <div className="footer-column">
                 <h3 className="text-[#f5f5f6] text-base mb-5 font-medium">
-                  Contact
+                  {t("common.contact")}
                 </h3>
                 <Link href="" target="_blank">
                   <div className="flex mb-3">

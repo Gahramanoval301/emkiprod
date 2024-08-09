@@ -1,5 +1,5 @@
 import React from "react";
-import line from "../../public/assets/line.png";
+import line from "/assets/line.png";
 
 function ValueCard({ value }) {
   return (

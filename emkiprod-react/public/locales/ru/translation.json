@@ -1,0 +1,46 @@
+{
+  "common":{
+    "readmore":"Больше",
+    "contact":"Контакт",
+    "social":"Социальные сети",
+    "facebook":"Facebook",
+    "instagram":"Instagram",
+    "linkedin":"Linkedin",
+    "information":"Информация",
+    "aboutus":"O нас",
+    "sponsor":"Спонсор"
+
+  },
+  "navbar":{
+    "home":"Главная",
+    "aboutus":"О нас",
+    "events":"Мероприятия",
+    "blogs":"Блог",
+    "sponsors":"SponsСпонсорыors",
+    "buytickets":"Купи билет"
+
+
+  },
+  "home":{
+    "elevateyourconcertexperience":"Повысьте ваш концертный опыт",
+    "welcometotheultimatedestinationformusicenthusiastsandconcertgoersatemkiproductionwerepassionateaboutbringingyoutheverybestinlivemusicexperienceswhetheryoureadiehardfanoracasuallistenerwevegotsomethingspecialinstoreforyou":"Добро пожаловать в конечную точку любителей музыки и энтузиастов концертов. Будучи EMKI Production мы профессионалы в предоставлении вам опыта живой музыки. У нас для вас особые мероприятия, независимо от того, вы ярый фанат или простой слушатель.",
+    "discoverevents":"Открой для себя мероприятия",
+    "ourvalues":"Наши ценности",
+        "trust":"Доверься",
+    "wealwaysgivehonestfeedbackandpracticalsuggestionstohelpyou":"Мы всегда предоставляем вам для помощи честные отзывы и практические предложения",
+    "innovation":"Инновация",
+    "oureventsarecarefullyplannedtomeetthegoalsofmodernbusinesses":"Наши мероприятия внимательно планируются, отвечая современным целям бизнеса",
+    "transparency":"Прозрачность",
+    "wehelpyouunderstandeverythingbyclearlypresentinginformation":"Мы помогаем понять всё, точно выражая всю информацию",
+    "collaboration":"Сотрудничество",
+    "weapproacheveryengagementwithconfidenceinourabilitytoforgealongtermrelationships":"Мы подходим к каждой работе доверяя нашим способностям создавать длительные отношения.",
+    "haveaproject":"У вас есть проект?",
+    "showyoureventtotheworldthroughanyplatformweareleadersinstreamingandbroadcastservicesforeventsofferingconsultingservicesanddevelopmentofcompletesystemsforourclientsineventbroadcasting":"Покажите свое мероприятие миру через любую платформу. Мы являемся лидерами в сфере стриминговых и трансляционных услуг для мероприятий, предлагая консультационные услуги и разработку комплексных систем для наших клиентов в сфере трансляций мероприятий."
+
+  },
+  "about":{},
+  "events":{},
+  "blogs":{},
+  "sponsors":{},
+  "notFound":{}
+}

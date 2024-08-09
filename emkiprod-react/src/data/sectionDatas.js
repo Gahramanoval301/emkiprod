@@ -1,31 +1,32 @@
-import imageFirst from "../../public/assets/rectangle1.svg";
-import imageSecond from "../../public/assets/rectangle2.svg";
-import imageThird from "../../public/assets/rectangle3.svg";
-import imageFourth from "../../public/assets/rectangle4.svg";
+import imageFirst from "/assets/rectangle1.svg";
+import imageSecond from "/assets/rectangle2.svg";
+import imageThird from "/assets/rectangle3.svg";
+import imageFourth from "/assets/rectangle4.svg";
 
+// valuesSectionData.js
 export const valuesSectionData = [
   {
     id: 1,
-    title: "Trust",
-    content:"We always give frank feedback and actionable advice to help you seethe big picture.",
+    titleKey: 'home.trust',
+    contentKey: 'home.wealwaysgivehonestfeedbackandpracticalsuggestionstohelpyou',
     image: imageFirst,
   },
   {
     id: 2,
-    title: "Transparency",
-    content:" We help you understand things clearly by removing all the confusing information",
+    titleKey: 'home.transparency',
+    contentKey: 'home.wehelpyouunderstandeverythingbyclearlypresentinginformation',
     image: imageSecond,
   },
   {
     id: 3,
-    title: "Innovation",
-    content:"Our events have been meticulously built and match the ambition of modern businesses.",
+    titleKey: 'home.innovation',
+    contentKey: 'home.oureventsarecarefullyplannedtomeetthegoalsofmodernbusinesses',
     image: imageThird,
   },
   {
     id: 4,
-    title: "Collaboration",
-    content:"We approach every engagement with confidence in our ability to forge a long-term relationships.",
+    titleKey: 'home.collaboration',
+    contentKey: 'home.weapproacheveryengagementwithconfidenceinourabilitytoforgealongtermrelationships',
     image: imageFourth,
   },
 ];
