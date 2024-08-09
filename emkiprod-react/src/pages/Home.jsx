@@ -5,11 +5,11 @@ import SponsorRow from "../components/SponsorRow";
 import DiscoverEvents from "../components/DiscoverEvents";
 import OurValues from "./OurValues";
 import HomeHead from "../components/HomeHead";
+import HeroSliderMobile from "../components/HeroSliderMobile";
 
 const Home = () => {
   return (
-    <PageContainer>
-      <HomeHead/>
+    <PageContainer >
       <DiscoverEvents />
       <OurValues />
       <HomeBlogs />
