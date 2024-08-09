@@ -6,11 +6,14 @@ import './../styles/header.css'
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 import { IoTicket } from "react-icons/io5";
 import LanguageSelector from './LanguageSelector';
+import { useTranslation } from 'react-i18next';
 
 const lang = ['EN', 'AZ', 'RU']
 
 
 const Header = () => {
+    const { t } = useTranslation();
+
     const [index, setIndex] = useState(0)
     const [flag, setFlag] = useState(true)
     const [show, setShow] = useState(true)
@@ -25,11 +28,11 @@ const Header = () => {
                     </div>
                     <img className='w-20 lg:w-[119px]' src={logo} alt="logo" />
                     <div className=' hidden lg:block'>
-                        <Link className='mx-3 hover:text-[#e32682] transition-all duration-500' to='/'>Home</Link>
-                        <Link className='mx-3 hover:text-[#e32682] transition-all duration-500' to='/events'>Events</Link>
-                        <Link className='mx-3 hover:text-[#e32682] transition-all duration-500' to='/blogs'>Blogs</Link>
-                        <Link className='mx-3 hover:text-[#e32682] transition-all duration-500' to='/sponsors'>Sponsors</Link>
-                        <Link className='mx-3 hover:text-[#e32682] transition-all duration-500' to='/about'>About Us</Link>
+                        <Link className='mx-3 hover:text-[#e32682] transition-all duration-500' to='/'>{t("navbar.home")}</Link>
+                        <Link className='mx-3 hover:text-[#e32682] transition-all duration-500' to='/events'>{t("navbar.events")}</Link>
+                        <Link className='mx-3 hover:text-[#e32682] transition-all duration-500' to='/blogs'>{t("navbar.blogs")}</Link>
+                        <Link className='mx-3 hover:text-[#e32682] transition-all duration-500' to='/sponsors'>{t("navbar.sponsors")}</Link>
+                        <Link className='mx-3 hover:text-[#e32682] transition-all duration-500' to='/about'>{t("navbar.aboutus")}</Link>
                     </div>
                     <LanguageSelector/>
                     {/* <div className='flex items-center'>
@@ -55,11 +58,11 @@ const Header = () => {
                     </div>
 
                     <div className='flex flex-col gap-4 mt-7 text-primary-default font-semibold tracking-wider text-xl'>
-                        <Link className='mx-3 hover:text-[#e32682] text-primary transition-all duration-500' to='/'>Home</Link>
-                        <Link className='mx-3 hover:text-[#e32682] text-primary transition-all duration-500' to='/events'>Events</Link>
-                        <Link className='mx-3 hover:text-[#e32682] text-primary transition-all duration-500' to='/blogs'>Blogs</Link>
-                        <Link className='mx-3 hover:text-[#e32682] text-primary transition-all duration-500' to='/sponsors'>Sponsors</Link>
-                        <Link className='mx-3 hover:text-[#e32682] text-primary transition-all duration-500' to='/about'>About Us</Link>
+                        <Link className='mx-3 hover:text-[#e32682] text-primary transition-all duration-500' to='/'>{t("navbar.home")}</Link>
+                        <Link className='mx-3 hover:text-[#e32682] text-primary transition-all duration-500' to='/events'>{t("navbar.events")}</Link>
+                        <Link className='mx-3 hover:text-[#e32682] text-primary transition-all duration-500' to='/blogs'>{t("navbar.blogs")}</Link>
+                        <Link className='mx-3 hover:text-[#e32682] text-primary transition-all duration-500' to='/sponsors'>{t("navbar.sponsors")}</Link>
+                        <Link className='mx-3 hover:text-[#e32682] text-primary transition-all duration-500' to='/about'>{t("navbar.aboutus")} Us</Link>
                     </div>
                 </div>
 

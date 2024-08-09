@@ -4,15 +4,15 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const img = [
-    { col: 1, src: 'public/assets/img/hero-1-1.png' },
-    { col: 1, src: 'public/assets/img/hero-1-2.png' },
-    { col: 1, src: 'public/assets/img/hero-1-3.png' },
-    { col: 2, src: 'public/assets/img/hero-2-1.png' },
-    { col: 2, src: 'public/assets/img/hero-2-2.png' },
-    { col: 2, src: 'public/assets/img/hero-2-3.png' },
-    { col: 3, src: 'public/assets/img/hero-3-1.png' },
-    { col: 3, src: 'public/assets/img/hero-3-2.png' },
-    { col: 3, src: 'public/assets/img/hero-3-3.png' }
+    { col: 1, src: '/assets/img/hero-1-1.png' },
+    { col: 1, src: '/assets/img/hero-1-2.png' },
+    { col: 1, src: '/assets/img/hero-1-3.png' },
+    { col: 2, src: '/assets/img/hero-2-1.png' },
+    { col: 2, src: '/assets/img/hero-2-2.png' },
+    { col: 2, src: '/assets/img/hero-2-3.png' },
+    { col: 3, src: '/assets/img/hero-3-1.png' },
+    { col: 3, src: '/assets/img/hero-3-2.png' },
+    { col: 3, src: '/assets/img/hero-3-3.png' }
 ];
 
 function HeroSliderMobile() {
