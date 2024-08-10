@@ -4,9 +4,21 @@
 
 @layer components {
     .section {
-        @apply container mx-auto p-10 my-10
+        @apply container mx-auto py-10 px-5 sm:p-10 my-10
     }
-    .transition-classic{
-        @apply duration-300 ease-in-out transition-all;        
+
+    .transition-classic {
+        @apply duration-300 ease-in-out transition-all;
     }
+}
+
+.text-border {
+    font-weight: 600;
+    color: transparent;
+    -webkit-text-stroke: 0.7px#F7F9FC;
+    /* background-image: linear-gradient(red, red);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: -50rem 0;
+    border: 2px solid white; */
 }
