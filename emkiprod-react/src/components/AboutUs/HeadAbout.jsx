@@ -1,8 +1,7 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
 
-const HeadAbout = () => {
-    const { t } = useTranslation();
+const HeadAbout = ({t}) => {
   return (
       <section className='section text-white_'>
           <div className='grid grid-cols-2 gap-x-20'>

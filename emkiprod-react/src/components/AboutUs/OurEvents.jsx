@@ -1,10 +1,10 @@
 import React from 'react'
 import OurEventsSwiper from './Swiper'
 
-const OurEvents = () => {
+const OurEvents = ({t}) => {
   return (
       <div className='section text-white_'>
-          <h2 className='text-3xl font-semibold'>Our Events</h2>
+      <h2 className='text-3xl font-semibold'>{t("about.ourevents")}</h2>
           <OurEventsSwiper/>
     </div>
   )
