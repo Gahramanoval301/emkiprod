@@ -6,6 +6,7 @@ import Events from './pages/Events'
 import Blogs from './pages/Blogs'
 import Sponsors from './pages/Sponsors'
 import Home from './pages/Home'
+import Blog from './pages/Blog'
 
 const WebRouting = () => {
     return (
@@ -14,6 +15,7 @@ const WebRouting = () => {
             <Route path='/about' element={<About />} />
             <Route path='/events' element={<Events />} />
             <Route path='/blogs' element={<Blogs />} />
+            <Route path='/blogs/blog/:id' element={<Blog />} />
             <Route path='/sponsors' element={< Sponsors />} />
             <Route path='*' element={<NotFound />} />
         </Routes>
