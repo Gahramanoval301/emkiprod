@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
-import './styles.css';
+import '../../styles/swiper.css';
 
 // import required modules
 import { Navigation, Autoplay, Keyboard, FreeMode, Mousewheel } from 'swiper/modules';
@@ -54,7 +54,7 @@ export default function DiscoverSectionSwiper() {
                 keyboard={true}
                 autoplay={true}
                 loop={true}
-                className="mySwiper relative z-10"
+                className="discoverEvents relative z-10"
                 breakpoints={{
                     320: { // Smallest screen
                         slidesPerView: 1,
