@@ -39,7 +39,10 @@
 
   },
   "about":{},
-  "events":{},
+  "events":{
+    "event": "события",
+    "ReadMore": "Читать далее"
+  },
   "blogs":{},
   "sponsors":{},
   "notFound":{}

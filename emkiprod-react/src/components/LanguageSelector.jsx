@@ -26,7 +26,7 @@ const LanguageSelector = () => {
                     {langNames[languages[index]]}
                     {flag ? <FaChevronDown className='w-3 mx-2' /> : <FaChevronUp className='w-3 mx-2' />}
                 </div>
-                <div style={flag ? { display: 'none' } : { display: 'block' }} className='absolute top-full mt-2 text-white bg-secondary z-50'>
+                <div style={flag ? { display: 'block' } : { display: 'none' }} className='absolute top-full mt-2 text-white bg-secondary z-50'>
                     {languages.map((lng, i) => (
                         i !== index && (
                             <div key={i} className='text-base cursor-pointer px-4 py-2 hover:bg-[#111526]' onClick={() => { setIndex(i); handleLanguageChange(lng); }}>

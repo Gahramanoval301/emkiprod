@@ -15,7 +15,7 @@ const Home = () => {
       <DiscoverEvents />
       <OurValues />
       <HomeBlogs />
-      <SponsorRow />
+      {/* <SponsorRow /> */}
     </PageContainer>
   );
 };

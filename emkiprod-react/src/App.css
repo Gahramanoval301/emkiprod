@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+img {
+  max-width: 100%;
+  height: auto;
+}
 body {
   /* background: linear-gradient(256.54deg, #151A30 0%, #211D4D 27.59%, #271630 68.97%, #0F1836 98.09%),linear-gradient(0deg, rgba(21, 26, 48, 0.4), rgba(21, 26, 48, 0.4)); */
   background-color: #101426;
@@ -117,4 +121,37 @@ a {
 .overlay button {
   font-family: Euclid Circular A, sans-serif;
   font-weight: 500;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .our-values {
+    min-height: 750px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1260px) {
+  .events-section {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0,1fr)) !important;
+  }
+}
+@media screen and (min-width: 896px) and (max-width: 992px) {
+  .events-section {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0,1fr)) !important;
+  }
+  .section-reused {
+    padding: 1rem !important;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 896px) {
+  .events-section {
+    display: block !important;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 433px) {
+  .event {
+    max-width: 400px !important;
+    width: 100% !important;
+  }
 }

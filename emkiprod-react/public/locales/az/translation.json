@@ -37,7 +37,10 @@
 
   },
   "about":{},
-  "events":{},
+  "events":{
+    "event": "Tədbirlər",
+    "ReadMore": "Daha Çox"
+  },
   "blogs":{},
   "sponsors":{},
   "notFound":{}

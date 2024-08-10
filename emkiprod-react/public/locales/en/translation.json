@@ -40,7 +40,10 @@
 
   },
   "about":{},
-  "events":{},
+  "events":{
+    "event": "Events",
+    "ReadMore": "Read More"
+  },
   "blogs":{},
   "sponsors":{},
   "notFound":{}
