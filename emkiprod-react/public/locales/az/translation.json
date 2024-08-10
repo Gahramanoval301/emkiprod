@@ -36,9 +36,8 @@
     "showyoureventtotheworldthroughanyplatformweareleadersinstreamingandbroadcastservicesforeventsofferingconsultingservicesanddevelopmentofcompletesystemsforourclientsineventbroadcasting":"Tədbirinizi istənilən platforma vasitəsilə dünyaya nümayiş etdirin. Biz tədbirlərin yayımı və nümayişi xidmətləri üzrə liderik və konsaltinq xidmətləri təklif edərək, tədbirin yayımı sahəsi üzrə müştərilərimiz üçün ən son sistemləri təkmilləşdiririk."
 
   },
-  "about":{},
-  "events":{},
-  "blogs":{},
-  "sponsors":{},
-  "notFound":{}
+  "about":{
+    "unleashyoureventspotential":"Tədbirinizin Potensiyalını Ortaya Çıxarın: ",
+    "elevateyourstreamingwithourexpertise":"Təcrübəmizlə Yayımınızı təkmilləşdirin!"
+  }
 }

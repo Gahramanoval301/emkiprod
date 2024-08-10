@@ -36,11 +36,9 @@
     "weapproacheveryengagementwithconfidenceinourabilitytoforgealongtermrelationships":"Мы подходим к каждой работе доверяя нашим способностям создавать длительные отношения.",
     "haveaproject":"У вас есть проект?",
     "showyoureventtotheworldthroughanyplatformweareleadersinstreamingandbroadcastservicesforeventsofferingconsultingservicesanddevelopmentofcompletesystemsforourclientsineventbroadcasting":"Покажите свое мероприятие миру через любую платформу. Мы являемся лидерами в сфере стриминговых и трансляционных услуг для мероприятий, предлагая консультационные услуги и разработку комплексных систем для наших клиентов в сфере трансляций мероприятий."
-
   },
-  "about":{},
-  "events":{},
-  "blogs":{},
-  "sponsors":{},
-  "notFound":{}
+  "about":{
+    "unleashyoureventspotential":"Раскройте потенциал вашего мероприятия: ",
+    "elevateyourstreamingwithourexpertise":"Улучшите вашу трансляцию нашим опытом"
+  }
 }
