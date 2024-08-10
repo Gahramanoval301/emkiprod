@@ -5,7 +5,7 @@ import { IoTicket } from 'react-icons/io5';
 
 const LanguageSelector = () => {
     const { t, i18n } = useTranslation();
-    const [flag, setFlag] = useState(false);
+    const [flag, setFlag] = useState(true);
     const [index, setIndex] = useState(0);
     const languages = ['en', 'ru', 'az'];
     const langNames = {

@@ -1,12 +1,15 @@
-import React from 'react'
-import PageContainer from '../components/common_/PageContainer'
+import React from "react";
+import PageContainer from "../components/common_/PageContainer";
+import SponsorHero from "../components/SponsorHero";
+import OurValues from "./OurValues";
 
 const Sponsors = () => {
   return (
     <PageContainer>
-      <div>Sponsors</div>
+      <SponsorHero />
+      <OurValues />
     </PageContainer>
-  )
-}
+  );
+};
 
-export default Sponsors
+export default Sponsors;
