@@ -8,9 +8,24 @@ const BlogsSlider = () => {
   return (
     <Swiper
       modules={[Navigation, Pagination, A11y]}
-      slidesPerView={3}
       pagination={{ clickable: true }}
-      className="pb-14"
+      slidesPerView={3}
+      spaceBetween={10}
+      autoplay={true}
+      loop={true}
+      breakpoints={{
+        320: {
+          slidesPerView: 1,
+        },
+        768: {
+          slidesPerView: 2,
+        },
+
+        1280: {
+          slidesPerView: 3,
+        },
+      }}
+      className="pb-3"
     >
       <SwiperSlide>
         <BlogCard />

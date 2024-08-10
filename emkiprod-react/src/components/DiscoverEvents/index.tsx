@@ -3,7 +3,7 @@ import DiscoverSectionSwiper from "./Swiper";
 import { useTranslation } from "react-i18next";
 
 const DiscoverEvents = () => {
-      const { t } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <section className="discover-events section ">

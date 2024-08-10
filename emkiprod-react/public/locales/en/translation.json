@@ -36,11 +36,14 @@
     "collaboration":"Collaboration",
     "weapproacheveryengagementwithconfidenceinourabilitytoforgealongtermrelationships":"We approach every engagement with confidence in our ability to forge a long-term relationships.",
     "haveaproject":"Have a Project?",
-    "showyoureventtotheworldthroughanyplatformweareleadersinstreamingandbroadcastservicesforeventsofferingconsultingservicesanddevelopmentofcompletesystemsforourclientsineventbroadcasting":"Show your event to the world through any platform. We are leaders in streaming and broadcast services for events, offering consulting services and development of complete systems for our clients in event broadcasting."
+    "sponsorText":"Show your event to the world through any platform. We are leaders in streaming and broadcast services for events, offering consulting services and development of complete systems for our clients in event broadcasting. Show your event to the world through any platform. We are leaders in streaming and broadcast services for events, offering consulting services and development of complete systems for our clients in event broadcasting."
 
   },
   "about":{},
-  "events":{},
+  "events":{
+    "event": "Events",
+    "ReadMore": "Read More"
+  },
   "blogs":{},
   "sponsors":{},
   "notFound":{}

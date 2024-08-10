@@ -2,7 +2,7 @@ import React from "react";
 
 function BlogCard() {
   return (
-    <a className="h-[320px]">
+    <a className="h-[320px] inline-block">
       <div className="bg-[#101426] rounded-[50px] h-[320px] m-[0 0 40px] w-[370px] cursor-pointer transition ease-in-out delay-400">
         <div className="relative flex items-center justify-center z-[100]">
           <img src="/assets/blog-card-img.png" alt="card image" className="" />
