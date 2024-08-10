@@ -1,7 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-
+import { FaChevronRight } from "react-icons/fa6";
+import { FaChevronLeft } from "react-icons/fa6";
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -9,9 +10,10 @@ import 'swiper/css/pagination';
 import '../../styles/swiper.css';
 
 // import required modules
-import { Navigation, Autoplay, Keyboard, FreeMode, Mousewheel } from 'swiper/modules';
+import { Navigation, Keyboard, FreeMode } from 'swiper/modules';
 // import { discoverEventsData } from '../../data/discoverEvents';
 import { FaArrowRightLong } from "react-icons/fa6";
+import { aboutEventsData } from '../../data/ourEventsAbout';
 
 export default function OurEventsSwiper() {
 
@@ -38,12 +40,13 @@ export default function OurEventsSwiper() {
         <div >
             <Swiper
                 ref={swiperRef}
-                slidesPerView={3}
-                spaceBetween={30}
+                slidesPerView={'auto'}
+                spaceBetween={0}
+                centeredSlides={true}
                 pagination={{
                     clickable: true,
                 }}
-                modules={[Navigation, Autoplay, Keyboard, FreeMode, Mousewheel]}
+                modules={[Navigation, Keyboard, FreeMode]}
                 navigation={{
                     prevEl: ".prev-btn",
                     nextEl: ".next-btn",
@@ -51,54 +54,21 @@ export default function OurEventsSwiper() {
                 mousewheel={true}
                 enabled={true}
                 keyboard={true}
-                autoplay={true}
-                loop={true}
                 className="ourEventsSwiper relative z-10 section"
-                breakpoints={{
-                    320: { // Smallest screen
-                        slidesPerView: 1,
-                    },
-                    768: { // Small screens like tablets
-                        slidesPerView: 2,
-                    },
-
-                    1280: { // Larger screens
-                        slidesPerView: 3,
-                    },
-                }}
             >
-                <button className={`next-btn absolute z-40 right-5 top-[45%] py-3 px-6 rounded-3xl border-2 text-white_ transition-classic ${isEnd ? "bg-pink" : "bg-primary-default"}`} >
-                    <FaArrowRightLong />
+                <button className={`next-btn absolute z-40 right-5 top-[45%] p-3  rounded-full border-2 text-white_ transition-classic `} >
+                    <FaChevronRight/>
                 </button>
-                <button className={`prev-btn absolute z-40 left-5 top-[45%] py-3 px-6 rounded-3xl border-2 text-white_ transition-classic ${isEnd ? "bg-pink" : "bg-primary-default"}`} >
-                    left
+                <button className={`prev-btn absolute z-40 left-5 top-[45%] p-3  rounded-full border-2 text-white_ transition-classic ${isEnd ? "bg-pink" : "bg-primary-default"}`} >
+                    <FaChevronLeft />
                 </button>
-                <SwiperSlide>1</SwiperSlide>
-                <SwiperSlide>1</SwiperSlide>
-                <SwiperSlide>1</SwiperSlide>
-                <SwiperSlide>1</SwiperSlide>
-                {/* {discoverEventsData.map(({ id, title, thumbnail, location, price, date }) => {
-                    return (
-                        <SwiperSlide key={id}>
-                            <div className=''>
-                                <div className='h-[400px] '>
-                                    <img src={thumbnail} alt={`${title}'s concert`} className='object-contain rounded-3xl' />
-                                </div>
-                                <div className='border-[1px] rounded-3xl border-primary-light py-2 px-5  text-white_  hover:bg-primary-light'>
-                                    <div className='flex justify-between text-2xl font-semibold my-2'>
-                                        <p className=''>{title}</p>
-                                        <span className='text-pink'>{price}</span>
-                                    </div>
-                                    <div className='flex justify-start gap-1 my-2'>
-                                        <p>{date}</p>
-                                        <span>&bull;</span>
-                                        <span>{location}</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </SwiperSlide>
-                    )
-                })} */}
+                {aboutEventsData.map(({ id, image, title }) => {
+                  return <SwiperSlide key={id}>
+                          
+                      <img src={image} alt={`${title}'s concert`} />
+                      <p className='font-semibold text-5xl absolute bottom-5 right-[15%] text-white_shadow uppercase'>{title}</p>
+                    </SwiperSlide>
+                })}
 
             </Swiper>
         </div>
