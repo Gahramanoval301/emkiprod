@@ -2,6 +2,8 @@ import imageFirst from "/assets/rectangle1.svg";
 import imageSecond from "/assets/rectangle2.svg";
 import imageThird from "/assets/rectangle3.svg";
 import imageFourth from "/assets/rectangle4.svg";
+import sponsor1 from "/assets/sponsor1.svg";
+import sponsor2 from "/assets/sponsor2.svg"
 
 export const valuesData = [
   {
@@ -114,5 +116,23 @@ export const discoverEventsData = [
     date: "26.03.2022",
     location: "Ramada by Wyndham",
     ticketURL: "",
+  },
+];
+export const sponsorsData = [
+  {
+    id: 1,
+    image: sponsor1,
+  },
+  {
+    id: 2,
+    image: sponsor2,
+  },
+  {
+    id: 3,
+    image: sponsor1,
+  },
+  {
+    id: 4,
+    image: sponsor2,
   },
 ];

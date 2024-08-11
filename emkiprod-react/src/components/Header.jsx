@@ -4,9 +4,9 @@ import logo from '/assets/img/logo.svg';
 import rectangle from '/assets/img/rectangle.svg';
 import './../styles/header.css'
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
-import { IoTicket } from "react-icons/io5";
 import LanguageSelector from './LanguageSelector';
 import { useTranslation } from 'react-i18next';
+import { IoTicket } from 'react-icons/io5';
 
 const lang = ['EN', 'AZ', 'RU']
 
@@ -34,23 +34,30 @@ const Header = () => {
                         <Link className='mx-3 hover:text-[#e32682] transition-all duration-500' to='/sponsors'>{t("navbar.sponsors")}</Link>
                         <Link className='mx-3 hover:text-[#e32682] transition-all duration-500' to='/about'>{t("navbar.aboutus")}</Link>
                     </div>
-                    <LanguageSelector/>
+                    <div className='flex items-center'>
+                        <LanguageSelector />
+                        <div className='text-[#101426] font-medium text-xl ml-6 hover:text-[#fff] transition-all duration-500 headerBuyTicket'>
+                            <button className='bg-white px-8 py-2 rounded-lg align-middle hidden lg:inline-block'>{t("navbar.buytickets")}</button>
+                            <button className='bg-white px-2 py-2 rounded-lg align-middle mx-[1px]'><IoTicket className='w-5 h-7' /></button>
+                        </div>
+                    </div>
                 </nav>
                 {/*  H A M B U R G E R   M E N U  */}
                 <div className={`xs:w-64 w-full pt-16 h-full px-4 mt-14 bg-white fixed top-0 z-[500] ${show && 'close'} duration-500`}>
-                    <div className='mx-3  relative border-[#C5CEE0] border-[1px] w-14 h-8 flex items-center justify-center text-primary-default' >
+                    <LanguageSelector/>
+                    {/* <div className='mx-3  relative border-[#C5CEE0] border-[1px] w-14 h-8 flex items-center justify-center text-primary-default' >
                         <div className='flex items-center text-base text-primary cursor-pointer select-none p-1' onClick={() => setFlag(!flag)}>{lang[index]}{flag ? <FaChevronDown className='w-3 mx-2' /> : <FaChevronUp className='w-3 mx-2' />}</div>
                         <div style={flag ? { display: 'none' } : { display: 'block' }} className='absolute top-full mt-2 bg-white_ text-primary hamburger-lang '>
                             {lang.map((elem, i) => ((i !== index) && <div key={i} className='text-base cursor-pointer px-4 py-2' onClick={() => { setIndex(i); setFlag(!flag) }}>{elem}</div>))}
                         </div>
-                    </div>
+                    </div> */}
 
                     <div className='flex flex-col gap-4 mt-7 text-primary-default font-semibold tracking-wider text-xl'>
                         <Link className='mx-3 hover:text-[#e32682] text-primary transition-all duration-500' to='/'>{t("navbar.home")}</Link>
                         <Link className='mx-3 hover:text-[#e32682] text-primary transition-all duration-500' to='/events'>{t("navbar.events")}</Link>
                         <Link className='mx-3 hover:text-[#e32682] text-primary transition-all duration-500' to='/blogs'>{t("navbar.blogs")}</Link>
                         <Link className='mx-3 hover:text-[#e32682] text-primary transition-all duration-500' to='/sponsors'>{t("navbar.sponsors")}</Link>
-                        <Link className='mx-3 hover:text-[#e32682] text-primary transition-all duration-500' to='/about'>{t("navbar.aboutus")} Us</Link>
+                        <Link className='mx-3 hover:text-[#e32682] text-primary transition-all duration-500' to='/about'>{t("navbar.aboutus")}</Link>
                     </div>
                 </div>
 
