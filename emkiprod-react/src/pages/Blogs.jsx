@@ -1,6 +1,5 @@
 import React from "react";
 import PageContainer from "../components/common_/PageContainer";
-import { blogData } from "../data/blog";
 import BlogPagesCard from "../components/BlogPagesCard";
 import { useTranslation } from "react-i18next";
 

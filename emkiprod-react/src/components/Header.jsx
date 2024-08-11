@@ -37,7 +37,7 @@ const Header = () => {
                     <LanguageSelector/>
                 </nav>
                 {/*  H A M B U R G E R   M E N U  */}
-                <div className={`xs:w-64 w-full pt-16 h-full px-4 mt-14 bg-white fixed z-[500] ${show && 'close'} duration-500`}>
+                <div className={`xs:w-64 w-full pt-16 h-full px-4 mt-14 bg-white fixed top-0 z-[500] ${show && 'close'} duration-500`}>
                     <div className='mx-3  relative border-[#C5CEE0] border-[1px] w-14 h-8 flex items-center justify-center text-primary-default' >
                         <div className='flex items-center text-base text-primary cursor-pointer select-none p-1' onClick={() => setFlag(!flag)}>{lang[index]}{flag ? <FaChevronDown className='w-3 mx-2' /> : <FaChevronUp className='w-3 mx-2' />}</div>
                         <div style={flag ? { display: 'none' } : { display: 'block' }} className='absolute top-full mt-2 bg-white_ text-primary hamburger-lang '>
