@@ -1,16 +1,16 @@
 import React from "react";
-import SponsorText from "./SponsorText";
-import SponsorImg from "./SponsorImg";
+import ProjectText from "./ProjectText";
+import ProjectImg from "./ProjectImg";
 
-function SponsorRow() {
+function ProjectRow() {
   return (
-    <section id="sponsor">
+    <section id="project">
       <div className="mx-auto  section">
         <div className="bg-[#151a30] rounded-[32px] py-[80px] px-[56px]">
           <div className="mx-auto w-11/12 sm:w-full pt-16 sm:pt-0  md:pt-0 xl:pt-0">
             <div className="flex align-center justify-between">
-              <SponsorText />
-              <SponsorImg />
+              <ProjectText />
+              <ProjectImg />
             </div>
           </div>
         </div>
@@ -19,4 +19,4 @@ function SponsorRow() {
   );
 }
 
-export default SponsorRow;
+export default ProjectRow;
