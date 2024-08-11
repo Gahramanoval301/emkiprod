@@ -4,7 +4,7 @@ import line from "/assets/line.png";
 function ValueCard({ value }) {
   return (
     <div className="flex items-center h-52 box">
-      <div>
+      <div className="our-values-image">
         <img src={value.image} alt="check" width={"156px"} height={"156px"} />
       </div>
       <div>
