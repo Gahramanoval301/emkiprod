@@ -34,7 +34,11 @@
     "haveaproject": "Proyektiniz var?",
     "sponsorText": "Tədbirinizi istənilən platforma vasitəsilə dünyaya göstərin. Biz hadisələr üçün axın və yayım xidmətləri, konsaltinq xidmətləri təklif etmək və hadisələrin yayımında müştərilərimiz üçün tam sistemlərin işlənib hazırlanması sahəsində liderik. Tədbirinizi istənilən platforma vasitəsilə dünyaya göstərin. Biz hadisələr üçün axın və yayım xidmətləri, konsaltinq xidmətləri təklif etmək və hadisələrin yayımında müştərilərimiz üçün tam sistemlərin işlənib hazırlanması sahəsində liderik."
   },
-  "about": {},
+  "about":{
+    "unleashyoureventspotential":"Tədbirinizin Potensiyalını Ortaya Çıxarın: ",
+    "elevateyourstreamingwithourexpertise":"Təcrübəmizlə Yayımınızı təkmilləşdirin!",
+    "ourevents": "Tədbirlərimiz"
+  },
   "events": {
     "event": "Tədbirlər",
     "ReadMore": "Daha Çox"

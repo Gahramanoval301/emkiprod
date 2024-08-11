@@ -10,13 +10,13 @@
     "aboutus": "About Us",
     "sponsor": "Sponsor"
   },
-  "navbar": {
-    "home": "Home",
-    "aboutus": "About Us",
-    "events": "Events",
-    "blogs": "Blogs",
-    "sponsors": "Sponsors",
-    "buytickets": "Buy Tickets"
+  "navbar":{
+    "home":"Home",
+    "aboutus":"About Us",
+    "events":"Events",
+    "blogs":"Blogs",
+    "sponsors":"Sponsors",
+    "buytickets":"Buy Tickets",
   },
   "home": {
     "elevateyourconcertexperience": "Elevate Your Concert Experience",
@@ -34,7 +34,11 @@
     "haveaproject": "Have a Project?",
     "sponsorText": "Show your event to the world through any platform. We are leaders in streaming and broadcast services for events, offering consulting services and development of complete systems for our clients in event broadcasting. Show your event to the world through any platform. We are leaders in streaming and broadcast services for events, offering consulting services and development of complete systems for our clients in event broadcasting."
   },
-  "about": {},
+  "about":{
+    "unleashyoureventspotential":"Unleash Your Event's Potential: ",
+    "elevateyourstreamingwithourexpertise":"Elevate Your Streaming with Our Expertise!",
+    "ourevents": "Our Events"
+  },
   "events": {
     "event": "Events",
     "ReadMore": "Read More"

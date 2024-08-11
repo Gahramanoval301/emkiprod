@@ -1,0 +1,33 @@
+.ourEventsSwiper.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.ourEventsSwiper .swiper-slide {
+    overflow: auto;
+    margin: auto;
+    position: relative;
+    width: 80%;
+}
+
+.ourEventsSwiper .swiper-slide img {
+    width: 80%;
+    display: block;
+    object-fit: cover;
+    border: 4px solid #E32682;
+    border-radius: 16px;
+    margin: auto;
+}
+
+/* --------------------- */
+.discoverEvents.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.discoverEvents .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
