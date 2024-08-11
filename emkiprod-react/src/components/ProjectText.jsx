@@ -1,13 +1,13 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 
-function SponsorText() {
+function ProjectText() {
   const { t } = useTranslation();
   return (
-    <div className="w-1/2">
+    <div className="w-1/2 max-[1300px]:w-full">
       <div className="mb-4">
-        <h2 className="text-[#e4e9f2] font-medium text-5xl">
-          {t("home.haveaproject")}{" "}
+        <h2 className="text-[#e4e9f2] font-medium text-5xl max-[640px]:text-4xl">
+          {t("home.haveaproject")}
         </h2>
       </div>
       <div className="text">
@@ -19,4 +19,4 @@ function SponsorText() {
   );
 }
 
-export default SponsorText;
+export default ProjectText;

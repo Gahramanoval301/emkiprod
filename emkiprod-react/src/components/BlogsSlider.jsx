@@ -10,7 +10,7 @@ const BlogsSlider = () => {
       modules={[Navigation, Pagination, A11y]}
       pagination={{ clickable: true }}
       slidesPerView={3}
-      spaceBetween={10}
+      spaceBetween={20}
       autoplay={true}
       loop={true}
       breakpoints={{
