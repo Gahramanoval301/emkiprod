@@ -4,7 +4,7 @@
 
 @layer components {
     .section {
-        @apply container mx-auto py-10 px-5 sm:p-10 my-10
+        @apply container mx-auto py-10 px-5 sm:p-10 my-10 w-11/12
     }
 
     .transition-classic {
