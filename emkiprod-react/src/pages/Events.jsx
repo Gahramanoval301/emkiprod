@@ -14,7 +14,7 @@ const Events = () => {
       <h3 className="text-white flex justify-center w-96 text-2xl h-24 items-end">
         Events
       </h3>
-      <div className="grid grid-cols-3 m-auto events-section place-content-center">
+      <div className="grid m-auto events-section place-content-center xs:block md:block lg:grid grid-cols-3 xl:grid xl:grid-cols-3">
         {discoverEventsData.map((event) => (
           <EventCard key={event.id} event={event} slide={false} />
         ))}
