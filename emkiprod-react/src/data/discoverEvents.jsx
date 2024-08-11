@@ -9,7 +9,7 @@ export const discoverEventsData = [
         ticketURL: "https://iticket.az/events/concerts/kirac-24/118187"
     },
     {
-        id:1,
+        id: 1,
         thumbnail:"/assets/img/rafet-el-roman.png",
         title: "Rafet El Roman",
         price: "50-205₼",
