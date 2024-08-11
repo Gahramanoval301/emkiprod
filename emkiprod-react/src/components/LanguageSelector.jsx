@@ -36,10 +36,7 @@ const LanguageSelector = () => {
                     ))}
                 </div>
             </div>
-            <div className='text-[#101426] font-medium text-xl ml-6 hover:text-[#fff] transition-all duration-500 headerBuyTicket'>
-                <button className='bg-white px-8 py-2 rounded-lg align-middle hidden lg:inline-block'>{t("navbar.buytickets")}</button>
-                <button className='bg-white px-2 py-2 rounded-lg align-middle mx-[1px]'><IoTicket className='w-5 h-7' /></button>
-            </div>
+         
         </div>
     );
 };
