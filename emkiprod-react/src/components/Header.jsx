@@ -4,7 +4,6 @@ import logo from '/assets/img/logo.svg';
 import rectangle from '/assets/img/rectangle.svg';
 import './../styles/header.css'
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
-import { IoTicket } from "react-icons/io5";
 import LanguageSelector from './LanguageSelector';
 import { useTranslation } from 'react-i18next';
 

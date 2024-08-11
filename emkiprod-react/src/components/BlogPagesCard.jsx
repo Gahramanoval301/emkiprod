@@ -8,7 +8,6 @@ function BlogPagesCard({ item }) {
 
     const handleCLick = () => {
         navigate(`blog/${id}`, { state: { id, url, title, desc } })
-
     }
 
     return (
