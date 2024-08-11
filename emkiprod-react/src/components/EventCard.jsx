@@ -25,8 +25,7 @@ function EventCard({ event, slide }) {
   ) : (
     <div
       className="section hover:cursor-pointer w-[450px] section-reused"
-      key={event.id}
-    >
+      key={event.id}>
       <div className="h-[380px] event-box">
         <img
           src={event.thumbnail}
