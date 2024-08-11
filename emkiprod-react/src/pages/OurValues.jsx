@@ -8,7 +8,8 @@ const OurValues = () => {
 
   console.log('Current language:', i18n.language);
   console.log('Loaded namespaces:', i18n.options.ns);
-  // Translate valuesSectionData
+
+  // Translate valuesData
   const translatedValues = valuesData.map(value => ({
     ...value,
     title: t(value.titleKey),
@@ -21,7 +22,6 @@ const OurValues = () => {
         <h4 className="inline-block font-semibold text-3xl">{t('home.ourvalues')}</h4>
       </div>
       <div className="our-values grid grid-cols-2 p-12 rounded-3xl">
-      <div className="our-values flex justify-evenly p-14 md:p-4 flex-wrap rounded-3xl">
         {translatedValues.map((value) => (
           <ValueCard key={value.id} value={value} />
         ))}
@@ -31,3 +31,4 @@ const OurValues = () => {
 };
 
 export default OurValues;
+
