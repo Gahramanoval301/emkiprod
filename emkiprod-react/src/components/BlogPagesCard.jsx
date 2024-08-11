@@ -2,12 +2,13 @@ import React from 'react'
 import { useNavigate } from 'react-router'
 
 function BlogPagesCard({ item }) {
+
     const { id, url, title, desc } = item
     const navigate = useNavigate()
-    
 
     const handleCLick = () => {
-        navigate( `blog/${id}`, { state: {  url, title, desc }})
+        navigate(`blog/${id}`, { state: { id, url, title, desc } })
+
     }
 
     return (

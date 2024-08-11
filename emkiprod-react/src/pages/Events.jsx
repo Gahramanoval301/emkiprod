@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React from 'react'
 import PageContainer from '../components/common_/PageContainer'
 import { discoverEventsData } from '../data/discoverEvents'
@@ -7,19 +6,12 @@ import LanguageSelector from '../components/LanguageSelector';
 import { useTranslation } from 'react-i18next';
 
 const lang = ['EN', 'AZ' , 'RU'];
-=======
-import React from "react";
-import PageContainer from "../components/common_/PageContainer";
-import { discoverEventsData } from "../data/sectionDatas";
-import EventCard from "../components/EventCard";
->>>>>>> 136aec5db9e455b1e8f5729fdd930b54acac5795
 
 const Events = () => {
   const { t } = useTranslation();
 
   return (
     <PageContainer>
-<<<<<<< HEAD
       <h3 className='text-white flex justify-center w-96 text-2xl h-24 items-end'>{t('events.event')}</h3>
       <div className='grid grid-cols-3 m-auto events-section place-content-center'>
         {discoverEventsData.map(({id, title, thumbnail, location, price, date, ticketURL}) => {
@@ -45,15 +37,6 @@ const Events = () => {
             </div>
           )
         })}
-=======
-      <h3 className="text-white flex justify-center w-96 text-2xl h-24 items-end">
-        Events
-      </h3>
-      <div className="grid grid-cols-3 m-auto events-section place-content-center">
-        {discoverEventsData.map((event) => (
-          <EventCard key={event.id} event={event} slide={false} />
-        ))}
->>>>>>> 136aec5db9e455b1e8f5729fdd930b54acac5795
       </div>
     </PageContainer>
   );
