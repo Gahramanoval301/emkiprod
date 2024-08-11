@@ -19,15 +19,21 @@
     margin: auto;
 }
 
-/* --------------------- */
-.discoverEvents.swiper {
-    width: 100%;
-    height: 100%;
-}
+@media screen and (max-width:650px) {
+    .ourEventsSwiper .swiper-slide img {
+            width: 320px;
+            min-height: 200px;
+    }}
 
-.discoverEvents .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
+    /* --------------------- */
+    .discoverEvents.swiper {
+        width: 100%;
+        height: 100%;
+    }
+
+    .discoverEvents .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }

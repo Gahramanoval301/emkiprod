@@ -41,8 +41,13 @@ export default function OurEventsSwiper() {
             <Swiper
                 ref={swiperRef}
                 slidesPerView={'auto'}
-                spaceBetween={0}
+                spaceBetween={20}
                 centeredSlides={true}
+                breakpoints={{
+                    640: {
+                        spaceBetween: 20
+                    }
+                }}
                 pagination={{
                     clickable: true,
                 }}
@@ -66,7 +71,7 @@ export default function OurEventsSwiper() {
                   return <SwiperSlide key={id}>
                           
                       <img src={image} alt={`${title}'s concert`} />
-                      <p className='font-semibold text-5xl absolute bottom-5 right-[15%] text-white_shadow uppercase'>{title}</p>
+                      <p className='font-semibold text-xl sm:text-2xl lg:text-5xl absolute bottom-5 right-[15%] text-white_shadow uppercase'>{title}</p>
                     </SwiperSlide>
                 })}
 
