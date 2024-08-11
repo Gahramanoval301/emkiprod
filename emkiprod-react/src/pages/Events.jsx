@@ -1,8 +1,10 @@
+
 import React from "react";
 import PageContainer from "../components/common_/PageContainer";
 import { discoverEventsData } from "../data/sectionDatas";
 import EventCard from "../components/EventCard";
 import { useTranslation } from "react-i18next";
+
 
 const Events = () => {
   const { t } = useTranslation();

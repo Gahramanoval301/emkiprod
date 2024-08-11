@@ -1,51 +1,76 @@
 {
-  "common":{
-    "readmore":"Daha çox",
-    "contact":"Əlaqə",
-    "social":"Sosial",
-    "facebook":"Facebook",
-    "instagram":"Instagram",
-    "linkedin":"Linkedin",
-    "information":"Məlumat",
-    "aboutus":"Haqqımızda",
-    "sponsor":"Sponsor"
-
+  "common": {
+    "readmore": "Daha çox",
+    "contact": "Əlaqə",
+    "social": "Sosial",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "linkedin": "Linkedin",
+    "information": "Məlumat",
+    "aboutus": "Haqqımızda",
+    "sponsor": "Sponsor"
   },
-  "navbar":{
-    "home":"Əsas",
-    "aboutus":"Haqqımızda",
-    "events":"Tədbirlər",
-    "blogs":"Bloqlar",
-    "sponsors":"Sponsorlar",
-    "buytickets":"Bilet al"
+  "navbar": {
+    "home": "Əsas",
+    "aboutus": "Haqqımızda",
+    "events": "Tədbirlər",
+    "blogs": "Bloqlar",
+    "sponsors": "Sponsorlar",
+    "buytickets": "Bilet al"
   },
-  "home":{
-    "elevateyourconcertexperience":"Konsert təcrübənizi yüksəldin",
-    "welcometotheultimatedestinationformusicenthusiastsandconcertgoersatemkiproductionwerepassionateaboutbringingyoutheverybestinlivemusicexperienceswhetheryoureadiehardfanoracasuallistenerwevegotsomethingspecialinstoreforyou":"Musiqi sevənlər və konsert həvəskarları üçün son təyinat nöqtəsinə xoş gəlmisiniz. EMKI Production olaraq sizə canlı musiqi təcrübəsini ən yaxşı şəkildə təqdim etməkdə peşəkarıq. Qatı fanat və ya sadə dinləyici olmağınızdan aslı olmayaraq sizin üçün xüsusi tədbirlərimiz var.",
-    "discoverevents":"Tədbirləri kəşf et",
-    "ourvalues":"Bizim dəyərlərimiz",
-    "trust":"Güvən",
-    "wealwaysgivehonestfeedbackandpracticalsuggestionstohelpyou":"Biz sizə kömək etmək üçün dürüst rəy və praktiki təkliflər veririk",
-    "innovation":"İnnovasiya",
-    "oureventsarecarefullyplannedtomeetthegoalsofmodernbusinesses":"Tədbirlərimiz müasir biznesin məqsədlərinə cavab vermək üçün diqqətlə planlaşdırılır.",
-    "transparency":"Şəffaflıq",
-    "wehelpyouunderstandeverythingbyclearlypresentinginformation":"Biz bütün məlumatları aydın ifadə edərək hər şeyi başa düşməyə kömək edirik",
-    "collaboration":"Əməkdaşlıq",
-    "weapproacheveryengagementwithconfidenceinourabilitytoforgealongtermrelationships":"Biz hər bir işə uzunmüddətli əlaqələr qurmaq qabiliyyətimizə inanaraq yanaşırıq.",
-    "haveaproject":"Proyektiniz var?",
-    "sponsorText":"Tədbirinizi istənilən platforma vasitəsilə dünyaya göstərin. Biz hadisələr üçün axın və yayım xidmətləri, konsaltinq xidmətləri təklif etmək və hadisələrin yayımında müştərilərimiz üçün tam sistemlərin işlənib hazırlanması sahəsində liderik. Tədbirinizi istənilən platforma vasitəsilə dünyaya göstərin. Biz hadisələr üçün axın və yayım xidmətləri, konsaltinq xidmətləri təklif etmək və hadisələrin yayımında müştərilərimiz üçün tam sistemlərin işlənib hazırlanması sahəsində liderik."
-
+  "home": {
+    "elevateyourconcertexperience": "Konsert təcrübənizi yüksəldin",
+    "welcometotheultimatedestinationformusicenthusiastsandconcertgoersatemkiproductionwerepassionateaboutbringingyoutheverybestinlivemusicexperienceswhetheryoureadiehardfanoracasuallistenerwevegotsomethingspecialinstoreforyou": "Musiqi sevənlər və konsert həvəskarları üçün son təyinat nöqtəsinə xoş gəlmisiniz. EMKI Production olaraq sizə canlı musiqi təcrübəsini ən yaxşı şəkildə təqdim etməkdə peşəkarıq. Qatı fanat və ya sadə dinləyici olmağınızdan aslı olmayaraq sizin üçün xüsusi tədbirlərimiz var.",
+    "discoverevents": "Tədbirləri kəşf et",
+    "ourvalues": "Bizim dəyərlərimiz",
+    "trust": "Güvən",
+    "wealwaysgivehonestfeedbackandpracticalsuggestionstohelpyou": "Biz sizə kömək etmək üçün dürüst rəy və praktiki təkliflər veririk",
+    "innovation": "İnnovasiya",
+    "oureventsarecarefullyplannedtomeetthegoalsofmodernbusinesses": "Tədbirlərimiz müasir biznesin məqsədlərinə cavab vermək üçün diqqətlə planlaşdırılır.",
+    "transparency": "Şəffaflıq",
+    "wehelpyouunderstandeverythingbyclearlypresentinginformation": "Biz bütün məlumatları aydın ifadə edərək hər şeyi başa düşməyə kömək edirik",
+    "collaboration": "Əməkdaşlıq",
+    "weapproacheveryengagementwithconfidenceinourabilitytoforgealongtermrelationships": "Biz hər bir işə uzunmüddətli əlaqələr qurmaq qabiliyyətimizə inanaraq yanaşırıq.",
+    "haveaproject": "Proyektiniz var?",
+    "sponsorText": "Tədbirinizi istənilən platforma vasitəsilə dünyaya göstərin. Biz hadisələr üçün axın və yayım xidmətləri, konsaltinq xidmətləri təklif etmək və hadisələrin yayımında müştərilərimiz üçün tam sistemlərin işlənib hazırlanması sahəsində liderik. Tədbirinizi istənilən platforma vasitəsilə dünyaya göstərin. Biz hadisələr üçün axın və yayım xidmətləri, konsaltinq xidmətləri təklif etmək və hadisələrin yayımında müştərilərimiz üçün tam sistemlərin işlənib hazırlanması sahəsində liderik."
   },
   "about":{
     "unleashyoureventspotential":"Tədbirinizin Potensiyalını Ortaya Çıxarın: ",
     "elevateyourstreamingwithourexpertise":"Təcrübəmizlə Yayımınızı təkmilləşdirin!",
     "ourevents": "Tədbirlərimiz"
   },
-  "events":{
+  "events": {
     "event": "Tədbirlər",
     "ReadMore": "Daha Çox"
   },
-  "blogs":{},
-  "sponsors":{},
-  "notFound":{}
+  "blogs": {
+    "id" : [ 1, 2, 3, 4, 5 ],
+    "url" : [
+      "https://emkistorage.blob.core.windows.net/web/220722-220919-TML2022-1180-ALIVECOVERAGE (1)20231222180004430.jpg",
+      "https://emkistorage.blob.core.windows.net/web/IMG-387020231222172942745.JPG",
+      "https://emkistorage.blob.core.windows.net/web/thomasss120231026114519269.jpg",
+      "https://emkistorage.blob.core.windows.net/web/channels4_profile20231026120221469.jpg",
+      "https://emkistorage.blob.core.windows.net/web/374740470_18291827344132244_2475564944783895848_n20231026115854571.jpg"
+    ], 
+    "blog": "Bloq",
+    "cardElement": {
+      "ReadMore": "Ətraflı oxu",
+      "title": [
+        "Alan Walker 10 Fevral 2024-də Bakıda Walker World Konserti ilə İşıqlandıracaq",
+        "Rafet El Roman Yenidən Bakının Auditoriyasını Məsmerizə Edəcək",
+        "Thomas Anders Heydər Əliyev Sarayında Bakıda Konsert Verdi",
+        "Bir Musiqi Parıltısı: Serdar Ortach'ın Unudulmaz Konserti Baku Kongress Mərkəzində",
+        "Unudulmaz Bir Gecə: DJ Korolova Ramada by Wyndham Konsertində Bakını Fırtına Qopardı"
+      ],
+      "desc": [
+        "Hazır olun, Bakı! Elektron musiqinin sensasiyası Alan Walker 10 Fevral 2024-də gözlənilən 'Walker World' konserti ilə səhnəni işıqlandırmaq üçün hazırdır. Norveçli DJ və prodüser, Azərbaycanın canlı paytaxtında unudulmaz bir təcrübə yaratmaq üçün enerjili ritmlər və cazibədar vizuallar təqdim edəcək. Bu musiqi ekstravaganzasına yerinizi təmin etmək üçün iticket.az-dan biletlərinizi alın.\nbosluq Alan Walker qlobal musiqi səhnəsində elektron, house və pop təsirləri ilə özünəməxsus qarışımı ilə yerini möhkəmləndirib. İmza səsi və ikonik imic ilə tanınan Walker dünya miqyasında böyük bir fan bazası qazandı. 'Faded' və 'Alone' kimi hitlər ilə müasir elektron musiqinin simvoluna çevrildi.\nbosluq Bakıda keçiriləcək 'Walker World' konserti Alan Walker'ın eyniadlı yeni albomunun qeyd edilməsi olacaq. Azarkeşlər bu çox gözlənilən buraxılışdan canlı ifaları ilk dəfə dinləyəcək, tədbirə əlavə həyəcan qatacaq. Walker World, müasir elektron musiqi mənzərəsində sənətçinin inkişafını və yeniliklərini nümayiş etdirəcək. Bakı, zəngin mədəni irsi və müasir cazibəsi ilə Alan Walker'ın enerjili performansı üçün ideal bir məkan təqdim edir. Konsert məkanı Walker'ın musiqisinin dinamik enerjisini şəhərin dinamik atmosferi ilə uyğunlaşdıracaq.\nbosluq Konsert tarixinin yaxınlaşması ilə azarkeşlər Alan Walker'ın diskografiyası ilə tanış ola bilərlər. Sevdiyiniz parçaların siyahısını yaradın və gecəni rəqs etməyə hazırlanın. Təcrübəni daha da unudulmaz etmək üçün dostlarınızla əlaqə qurmağı düşünün.\nbosluq Bakı, Alan Walker'ın 'Walker World' konserti ilə şəhərə gəlməsi ilə musiqi müalicəsi üçün hazırdır. Bu elektrifikasiya edən hadisənin bir hissəsi olmaq və Walker'ın ən son musiqi bölümünün açılışını görmək üçün imkanınızı qaçırmayın. Unudulmaz bir gecə üçün biletlərinizi indi iticket.az-dan alın. Walker'ın dünyasına daxil olmağa hazır olun!",
+        "Özünüzü Türk pop sensasiyası Rafet El Roman'ın ruhu dərin melodiyalarına batırmaq üçün hazırlayın, çünki o, Bakının səhnələrini yenidən fəth edəcək! Onun zamansız musiqisinin pərəstişkarları üçün mükafat olacaq, çünki Rafet El Roman 12, 13 və 14 Yanvar 2024-də Heydər Əliyev Sarayında performans göstərəcək. Musiqisi vasitəsilə dərindən duyğuları çatdırma qabiliyyəti onu Türk musiqi sənayesində ən çox sevilən sənətçilərdən biri halına gətirib.\nbosluq Heydər Əliyev Sarayı, dünya səviyyəli performansları qəbul edən bir məkan olaraq, Rafet El Roman'ın cazibədar melodiyaları üçün mükəmməl bir fon təmin edir. Bakı şəhərinin mərkəzində yerləşən saray sadəcə bir məkan deyil, eyni zamanda Azərbaycanın tarixində bəzi ən yadda qalan musiqi hadisələrinə şahid olmuş bir mədəniyyət abidəsidir.\nbosluq 12-dən 14-ə qədər üç gecəni əhatə edən konsert seriyası sərhədləri aşan musiqi səyahəti vəd edir. Azarkeşlər Rafet El Roman'ın 'Aşk-ı Virane', 'Sorma Neden' və 'Yadigar' kimi klassik hitlərini, həmçinin hava dalğalarını zəlzələyən son chart-toppperlərini dinləyə biləcəklər.\nbosluq Bu çox gözlənilən konsertlər üçün biletlər artıq iticket.az-da mövcuddur, Azərbaycan'ın onlayn bilet platformasında. Rafet El Roman'ın konsertləri tez-tez tam dolur, buna görə də yerinizi erkən təmin etməyiniz tövsiyə olunur. Emosiyaların həqiqi ustası tərəfindən canlı performansı görmək üçün bu fürsəti qaçırmayın.\nbosluq Rafet El Roman'ın Bakıya dönüşü sadəcə bir konsert deyil; bu, musiqi, sevgi və birlik bayramıdır. Uzun müddət pərəstişkarı olan və ya onun cazibədar melodiyalarına yeni qoşulan biri olsanız da, bu tədbir saf musiqi sehrini vəd edir.\nbosluq Beləliklə, təqviminizi işarələyin, biletlərinizi alın və Heydər Əliyev Sarayında Rafet El Roman'ın tünd səsi ilə serenad olmağa hazırlanın. Musiqinin sizi hər hansı bir not tamamlandıqdan sonra uzun müddət yadda qalacaq bir dünyaya daşımasına icazə verin. Bir daha təkrar olunacaq bir təcrübə üçün hazır olun!",
+        "Bakı, Azərbaycanın canlı paytaxtı, 14 oktyabr 2023-cü il axşamı Heydər Əliyev Sarayında keçirilən Thomas Anders-in konsertində heyran qaldı. Şöhrətli və akustik xüsusiyyətləri ilə tanınan bu venue, tamaşaçılarda dərin təsir bağışlayan bir musiqi sehrinin mükəmməl səhnəsi oldu.\nbosluq İşıqlar sönərkən və tamaşaçıların həyəcanı zirvəyə çatdıqda, Thomas Anders səhnəyə çıxdı və gurultulu alqışlarla qarşılandı. Mükəmməl geyinmiş və cazibədar olan Anders, gecəni 'You're My Heart, You're My Soul' adlı klassik hit ilə açdı. Nəsilləri əhatə edən tamaşaçı, bu hitə qoşuldu, nəticədə təmiz bir coşku atmosferi yarandı.\nbosluq Anders, yumşaq səsi ilə tamaşaçıları Modern Talking dövrlərindən solo karyerasına qədər musiqi səfərinə çıxardı. Hər bir nota sarayın içindən rezonans verdi, hər kəsi cəlb etdi. Onun enerjisi yoluxucu idi və tamaşaçı ilə əlaqəsi hiss olundu, konserti yaxın və unudulmaz bir təcrübəyə çevirdi.\nbosluq Konsert yalnız qulaqlar üçün bir ziyafət deyil, həm də vizual bir şou idi. Səhnə, musiqinin ritmi ilə rəqs edən heyranedici işıq nümayişləri ilə bəzədilmişdi, nəticədə surreal bir atmosfer yarandı. Vizual təsvirlər musiqini mükəmməl şəkildə tamamladı, tamaşaçı üçün ümumi duyğu təcrübəsini artırdı.\nbosluq Axşam boyunca Thomas Anders, Bakının həvəsli tamaşaçılarına təşəkkür etdi. Musiqi səyahətindən anekdotlar paylaşdı, fanatları ilə şəxsi bir əlaqə qurdu. Konsert həmçinin sürpriz qonaq çıxışlarını da əhatə etdi, tamaşaçıları xoşbəxt etdi və həyəcanlandırdı.\nbosluq Gecə sona yaxınlaşdıqda, Anders, 'Cheri, Cheri Lady' adlı ikonlaşmış baladını canlandırdı, tamaşaçıları onun vokal bacarığına heyran qoydu. Tamaşaçılar, emosional performansa təsirlənərək ayağa qalxdılar, musiqi maestro üçün dərin minnətdarlıqlarını bildirdilər.\nbosluq Konsert enerjili bir əlavə ilə sona çatdı, tamaşaçılar daha çoxunu istəyirdi. Thomas Anders vidalaşdıqda, alqışlar və çağırışlar sarayda əks-səda verdi, bu unudulmaz gecənin təsdiqi oldu.\nbosluq 14 oktyabr 2023-cü il tarixində Heydər Əliyev Sarayında baş tutan Thomas Anders konserti sadəcə bir musiqi tədbiri deyil; o, zamanın və məkanın sərhədlərini aşan, əfsanəvi melodiyaların, müstəsna istedadın və musiqinin birləşdirici gücünün qeyd olunması idi. Gecəyə qatılan hər kəs, Thomas Anders-in səsini və unudulmaz gecənin xatirələrini ürəklərində daşıyaraq sarayı tərk etdilər. Konsert, musiqi parıltısının mirasını buraxaraq Bakı mədəniyyət toxumasında silinməz bir iz buraxdı.",
+        "1 aprel 2023-cü il tarixində Bakıdakı Baku Kongress Mərkəzində keçirilən konsertdə tanınmış Türk müğənnisi Serdar Ortaç səhnəyə çıxdı. Tutqun səsi və ruhu oxşayan sözləri ilə Ortaç'ın konserti, sənət, istedad və musiqinin birləşdirici gücünün qeyd olunması oldu. Bu möhtəşəm hadisənin sehrli atmosferinə nəzər salaq.\nbosluq Baku Kongress Mərkəzi, böyüklüyü və akustik xüsusiyyətləri ilə tanınan, Serdar Ortaç'ın musiqi extravaganzası üçün mükəmməl fon təqdim etdi. Venue dolduqca, fanatlar arasında gözləntilər havada asılı qaldı və inanılmaz bir əyləncə gecəsi vəd etdi.\nbosluq Ortaç, ənənəvi Türk melodiyalarını müasir ritmlərlə birləşdirməkdə müstəsna bir ustadır və ilk notdan etibarən tamaşaçıları cəlb etdi. Onun zəngin, duyğusal səsi auditoriyada əks-səda verdi, dinləyiciləri dil və mədəniyyət sərhədlərini aşan musiqi səfərinə apardı. Yetenekli bir qrup tərəfindən müşayiət olunan Ortaç, ürəyi açan balladlarla enerjili anthemlar arasında mükəmməl bir keçid təqdim etdi, sənətçi olaraq çox yönlü olduğunu nümayiş etdirdi.\nbosluq Ortaç'ın ən böyük güclərindən biri, tamaşaçı ilə dərin emosional əlaqə qurma qabiliyyətidir. Ürəkdən gələn sözləri və ruhu oxşayan melodiyaları ilə, sevgi, sevinçdən ürək ağrısına və istəyə qədər müxtəlif emosiyaları ifadə etdi. Tamaşaçı həvəslə iştirak etdi, hər sözü ilə qoşuldu, konserti insan təcrübəsinin kollektiv qeydiyyatı etdi.\nbosluq Konsert yalnız bir performans deyil; bu, iştirakçıların yaddaşlarında iz buraxan xüsusi anların seriyası idi. Ortaç, tamaşaçı ilə əlaqə qurdu, anekdotlar paylaşdı və davamlı dəstəkləri üçün təşəkkür etdi. Bu şəxsi toxunuşlar tədbirə yaxın bir ölçü əlavə etdi, hər kəsi həqiqətən sehrli bir şeyin bir hissəsi kimi hiss etdirdi.\nbosluq Serdar Ortaç'ın 1 aprel 2023-cü il tarixində Baku Kongress Mərkəzindəki konserti yalnız bir musiqi tədbiri deyil; bu, istedad, ehtiras və musiqinin birləşdirici gücünün qeyd olunması idi. Onun qeyri-adi səsi və ürəkdən performansı ilə Ortaç, iştirak edən hər kəs üçün unudulmaz bir təcrübə yaratdı. Konsert, musiqinin dərin təsirini xatırlatdı, sərhədləri aşdı və insanları harmoniya içində bir araya gətirdi. Gecə sona çatdıqda, tamaşaçılar, Serdar Ortaç'ın musiqisinin sehrindən təsirlənərək, sevinc dolu ürəklərlə venue'dan ayrıldılar, növbəti dəfə onun sənətinə heyran qalmaq üçün səbirsizliklə gözlədilər.",
+        "Bakı, Azərbaycanın mərkəzində, musiqi həvəskarları və partiya sevərlər 26 mart 2022-ci il tarixində Ramada by Wyndham-da mükəmməl bir gecə yaşadılar. Şöhrətli DJ Korolova səhnəyə çıxdı. İrəliləyən ritmlər, həyəcanlı atmosfer və əyləncəli enerji, tamaşaçıları heyran qoyan bir musiqi mükəmməlliyinin gecəsini qeyd etdi.\nbosluq Ramada by Wyndham, lüks ambiyansı və mükəmməl tədbir məkanları ilə tanınır, bu elektrikli musiqi extravaganzası üçün mükəmməl fon təqdim etdi. Venue həyəcanla dolmuşdu, fanatlar, yerli sakinlər və turistlər dövrün ən məşhur DJ-lərindən birini görmək üçün toplandılar. Korolova səhnəyə çıxaraq özünün etibarlı bir aura ilə tamaşaçıları dərhal cəlb etdi. Tekno ritmlərdən ruhu oxşayan melodiyalara qədər, müxtəlif janrları əhatə edən bir çalğı siyahısı ilə təqdim etdi və hər kəsə uyğun bir şey təmin etdi.\nbosluq Gecənin ən diqqətçəkən cəhətlərindən biri, DJ Korolova-nın cəlb etdiyi müxtəlif tamaşaçı idi. Fərqli həyat yollarından, mədəniyyətlərdən və arxa planlardan gələn insanlar Ramada by Wyndham-da toplandı, musiqiyə olan ümumi sevgi ilə əlaqələndilər. Dans meydançası enerji dolu bir əridici oldu, burada yadlar dostlara çevrildi və musiqinin universal dili ilə sərhədlər aşılmış oldu."
+      ]
+    }
+  },
+  "sponsors": {},
+  "notFound": {}
 }
