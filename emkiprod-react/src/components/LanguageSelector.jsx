@@ -14,8 +14,8 @@ const LanguageSelector = ({isMobileNavbar}) => {
     };
 
     const handleLanguageChange = (lng) => {
+        setFlag(true);
         i18n.changeLanguage(lng);
-        setFlag(false);
     };
 
     return (
