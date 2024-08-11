@@ -20,11 +20,12 @@ const OurValues = () => {
       <div className="w-80 flex items-center mb-8">
         <h4 className="inline-block font-semibold text-3xl">{t('home.ourvalues')}</h4>
       </div>
-      <div className="our-values grid grid-cols-2 p-12 rounded-3xl">
-      <div className="our-values flex justify-evenly p-14 md:p-4 flex-wrap rounded-3xl">
-        {translatedValues.map((value) => (
-          <ValueCard key={value.id} value={value} />
-        ))}
+      <div className="our-values grid grid-cols-2 p-8 rounded-3xl xl:flex xl:flex-wrap">
+        <div className="flex justify-evenly md:p-4 flex-wrap rounded-3xl value-box">
+          {translatedValues.map((value) => (
+            <ValueCard key={value.id} value={value} />
+          ))}
+        </div>
       </div>
     </div>
   );
