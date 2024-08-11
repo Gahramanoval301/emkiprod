@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 
-function SponsorText() {
+function ProjectText() {
   const { t } = useTranslation();
   return (
     <div className="w-1/2 max-[1300px]:w-full">
@@ -19,4 +19,4 @@ function SponsorText() {
   );
 }
 
-export default SponsorText;
+export default ProjectText;

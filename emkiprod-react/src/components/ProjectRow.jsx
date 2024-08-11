@@ -10,7 +10,7 @@ function ProjectRow() {
           <div className="mx-auto w-11/12 sm:w-full sm:pt-0  md:pt-0 xl:pt-0">
             <div className="flex flex-row max-[1300px]:flex-col items-center justify-between">
               <ProjectText />
-              <ProjectImg />
+              <ProjectImg project={true}/>
             </div>
           </div>
         </div>
