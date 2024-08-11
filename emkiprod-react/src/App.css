@@ -118,3 +118,14 @@ a {
   font-family: Euclid Circular A, sans-serif;
   font-weight: 500;
 }
+@media screen and (min-width: 992px) and (max-width: 1250px) {
+  .events-section {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0,1fr)) !important;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 430px) {
+  .event {
+    max-width: 300px !important;
+  }
+}
