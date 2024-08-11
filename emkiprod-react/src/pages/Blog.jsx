@@ -12,12 +12,13 @@ function Blog() {
     
     const { id: ids, url: urls, cardElement: { title: titles, desc: descriptions } } = t('blogs', { returnObjects: true });
     
-    const updatedDesc = descriptions[id].split('bosluq')
+    const updatedDesc = descriptions[id - 1].split('bosluq')
+    
 
     const blogData = Array.isArray(ids) && Array.isArray(urls) && Array.isArray(titles) && Array.isArray(descriptions)
         ? ids.map((id, index) => ({ id, url: urls[index], title: titles[index], desc: descriptions[index], })) : [];
 
-        
+
     return (
         <PageContainer>
             <div className="m-auto w-11/12 sm:w-4/5 pt-24 xl:mb-0 sm:pt-24 md:pt-20 xl:pt-14">
