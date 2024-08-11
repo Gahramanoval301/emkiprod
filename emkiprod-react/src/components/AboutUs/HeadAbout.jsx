@@ -11,7 +11,7 @@ const HeadAbout = ({t}) => {
                   <p className='my-5 sm:text-xl text-justify leading-relaxed'>{t("home.sponsorText")}</p>
               </div>
               <div className='flex justify-center items-center'>
-                  <video src="" poster="/assets/video_thumbnail.png" controls width="100%" height="100%"></video>
+                  <video src="/assets/video/about-us-video.mp4"  controls width="100%" height="100%"></video>
               </div>
           </div>
       </section>
