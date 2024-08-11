@@ -20,7 +20,7 @@ const Header = () => {
 
     return (
         <div>
-            <heaader onClick={() => { !flag && setFlag(!flag) }} className='w-full text-white_ '>
+            <header onClick={() => { !flag && setFlag(!flag) }} className='w-full text-white_ '>
                 <nav className='flex bg-primary-default lg:w-[90%] lg:h-auto h-[70px] w-full m-auto justify-between bg-primary py-6 px-8 z-[999] top-0 right-0 fixed lg:relative  rounded-none items-center lg:rounded-bl-24 lg:rounded-br-24'>
                     <div onClick={() => setShow(!show)} className='flex lg:hidden flex-col gap-[6px] hamburger cursor-pointer'>
                         <img className={`select-none transition-transform duration-300 ${!show ? 'rotate-45 translate-y-2' : 'rotate-0'}`} src={rectangle} />
@@ -54,7 +54,7 @@ const Header = () => {
                     </div>
                 </div>
 
-            </heaader>
+            </header>
         </div>
     )
 }
