@@ -49,7 +49,7 @@ const Header = () => {
                         <Link className='mx-3 hover:text-[#e32682] text-primary transition-all duration-500' to='/events'>{t("navbar.events")}</Link>
                         <Link className='mx-3 hover:text-[#e32682] text-primary transition-all duration-500' to='/blogs'>{t("navbar.blogs")}</Link>
                         <Link className='mx-3 hover:text-[#e32682] text-primary transition-all duration-500' to='/sponsors'>{t("navbar.sponsors")}</Link>
-                        <Link className='mx-3 hover:text-[#e32682] text-primary transition-all duration-500' to='/about'>{t("navbar.aboutus")} Us</Link>
+                        <Link className='mx-3 hover:text-[#e32682] text-primary transition-all duration-500' to='/about'>{t("navbar.aboutus")}</Link>
                     </div>
                 </div>
 

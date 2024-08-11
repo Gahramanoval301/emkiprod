@@ -2,8 +2,8 @@ import imageFirst from "/assets/rectangle1.svg";
 import imageSecond from "/assets/rectangle2.svg";
 import imageThird from "/assets/rectangle3.svg";
 import imageFourth from "/assets/rectangle4.svg";
-import sponsor1 from "../../public/assets/sponsor1.svg";
-import sponsor2 from "../../public/assets/sponsor2.svg"
+import sponsor1 from "/assets/sponsor1.svg";
+import sponsor2 from "/assets/sponsor2.svg"
 
 export const valuesData = [
   {
