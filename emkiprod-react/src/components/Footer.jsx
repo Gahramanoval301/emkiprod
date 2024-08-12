@@ -7,8 +7,8 @@ const Footer = () => {
   const { t } = useTranslation();
   return (
     <section id="footer">
-      <div className="border-[1px] border-[#222b45] border-style mt-[80px]">
-        <div className="mx-auto w-11/12 sm:w-4/5 xl:mb-0 pt-12 sm:pt-16 md:pt-16 xl:pt-16 pb-2 sm:pb-2 md:pb-2 xl:pb-2  MuiBox-root css-0">
+      <div className="border-t border-[#222b45] border-style mt-[80px]">
+        <div className="mx-auto w-11/12 w-full sm:w-4/5 xl:mb-0 pt-12 sm:pt-16 md:pt-16 xl:pt-16 pb-2 sm:pb-2 md:pb-2 xl:pb-2  MuiBox-root css-0">
           <div className="flex md:flex-row flex-col md:items-start items-center justify-between">
             <div className="footer-logo">
               <img src="/assets/logo-medium.png" alt="footer logo" />
