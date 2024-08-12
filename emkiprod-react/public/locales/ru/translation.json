@@ -41,8 +41,74 @@
     "showyoureventtotheworldthroughanyplatformweareleadersinstreamingandbroadcastservicesforeventsofferingconsultingservicesanddevelopmentofcompletesystemsforourclientsineventbroadcasting":"Покажите свое мероприятие миру через любую платформу. Мы являемся лидерами в сфере стриминговых и трансляционных услуг для мероприятий, предлагая консультационные услуги и разработку комплексных систем для наших клиентов в сфере трансляций мероприятий."
   },
   "events": {
-    "event": "события",
-    "ReadMore": "Читать далее"
+    "event": "Мероприятия",
+    "readmore": "Больше",
+    "id": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "thumbnail": [
+      "/assets/img/kirac.png",
+      "/assets/img/rafet-el-roman.png",
+      "/assets/img/serdar-ortac.png",
+      "/assets/img/alan-walker.png",
+      "/assets/img/rafet-el-roman-2.png",
+      "/assets/img/thomas-anders.jpg",
+      "/assets/img/serdar-ortac-2.jpg",
+      "/assets/img/celik.jpg",
+      "/assets/img/korolova.png"
+    ],
+    "title": [
+      "Kырач",
+      "Рафет Эль Роман",
+      "Сердар Ортач",
+      "Алан Уокер",
+      "Рафет Эль Роман",
+      "Томас Андерс",
+      "Сердар Ортач",
+      "Челик",
+      "Королoва"
+    ],
+    "price": [
+      "49₼-199₼",
+      "50₼-205₼",
+      "30₼-300₼",
+      "30₼-200₼",
+      "30₼-300₼",
+      "30₼-300₼",
+      "50₼-300₼",
+      "30₼-250₼",
+      "30₼-350₼"
+    ],
+    "date": [
+      "20.10.2024",
+      "8 июня",
+      "07.04.2024",
+      "10.02.2024",
+      "12-13-14 января",
+      "14.10.2023",
+      "01.04.2023",
+      "10.07.2023",
+      "26.03.2022"
+    ],
+    "location": [
+      "Дворец Гейдара Алиева",
+      "Дворец Гейдара Алиева",
+      "Дворец Гейдара Алиева",
+      "Баку Кристал Холл",
+      "Дворец Гейдара Алиева",
+      "Дворец Гейдара Алиева",
+      "Бакy Конгресс Центр",
+      "Дворец Гейдара Алиева",
+      "Ramada by Wyndham"
+    ]
   },
   "blogs": {
     "id" : [ 1, 2, 3, 4, 5 ],

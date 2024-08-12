@@ -34,24 +34,96 @@
     "haveaproject": "Proyektiniz var?",
     "sponsorText": "Tədbirinizi istənilən platforma vasitəsilə dünyaya göstərin. Biz hadisələr üçün axın və yayım xidmətləri, konsaltinq xidmətləri təklif etmək və hadisələrin yayımında müştərilərimiz üçün tam sistemlərin işlənib hazırlanması sahəsində liderik. Tədbirinizi istənilən platforma vasitəsilə dünyaya göstərin. Biz hadisələr üçün axın və yayım xidmətləri, konsaltinq xidmətləri təklif etmək və hadisələrin yayımında müştərilərimiz üçün tam sistemlərin işlənib hazırlanması sahəsində liderik."
   },
-  "about":{
-    "unleashyoureventspotential":"Tədbirinizin Potensiyalını Ortaya Çıxarın: ",
-    "elevateyourstreamingwithourexpertise":"Təcrübəmizlə Yayımınızı təkmilləşdirin!",
+  "about": {
+    "unleashyoureventspotential": "Tədbirinizin Potensiyalını Ortaya Çıxarın: ",
+    "elevateyourstreamingwithourexpertise": "Təcrübəmizlə Yayımınızı təkmilləşdirin!",
     "ourevents": "Tədbirlərimiz"
   },
   "events": {
     "event": "Tədbirlər",
-    "ReadMore": "Daha Çox"
+    "readmore": "Daha Çox",
+    "id": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "thumbnail": [
+      "/assets/img/kirac.png",
+      "/assets/img/rafet-el-roman.png",
+      "/assets/img/serdar-ortac.png",
+      "/assets/img/alan-walker.png",
+      "/assets/img/rafet-el-roman-2.png",
+      "/assets/img/thomas-anders.jpg",
+      "/assets/img/serdar-ortac-2.jpg",
+      "/assets/img/celik.jpg",
+      "/assets/img/korolova.png"
+    ],
+    "title": [
+      "Kıraç",
+      "Rafet El Roman",
+      "Serdar Ortaç",
+      "Alan Walker",
+      "Rafet El Roman",
+      "Thomas Anders",
+      "Serdar Ortaç",
+      "Çelik",
+      "Korolova"
+    ],
+    "price": [
+      "49₼-199₼",
+      "50₼-205₼",
+      "30₼-300₼",
+      "30₼-200₼",
+      "30₼-300₼",
+      "30₼-300₼",
+      "50₼-300₼",
+      "30₼-250₼",
+      "30₼-350₼"
+    ],
+    "date": [
+      "20.10.2024",
+      "8 Iyun",
+      "07.04.2024",
+      "10.02.2024",
+      "12-13-14 Yanvar",
+      "14.10.2023",
+      "01.04.2023",
+      "10.07.2023",
+      "26.03.2022"
+    ],
+    "location": [
+      "Heydər Əliyev Sarayı",
+      "Heydər Əliyev Sarayı",
+      "Heydər Əliyev Sarayı",
+      "Bakı Kristal Zalı",
+      "Heydər Əliyev Sarayı",
+      "Heydər Əliyev Sarayı",
+      "Bakı Konqres Mərkəzi",
+      "Heydər Əliyev Sarayı",
+      "Ramada by Wyndham"
+    ]
   },
   "blogs": {
-    "id" : [ 1, 2, 3, 4, 5 ],
-    "url" : [
+    "id": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "url": [
       "https://emkistorage.blob.core.windows.net/web/220722-220919-TML2022-1180-ALIVECOVERAGE (1)20231222180004430.jpg",
       "https://emkistorage.blob.core.windows.net/web/IMG-387020231222172942745.JPG",
       "https://emkistorage.blob.core.windows.net/web/thomasss120231026114519269.jpg",
       "https://emkistorage.blob.core.windows.net/web/channels4_profile20231026120221469.jpg",
       "https://emkistorage.blob.core.windows.net/web/374740470_18291827344132244_2475564944783895848_n20231026115854571.jpg"
-    ], 
+    ],
     "blog": "Bloq",
     "cardElement": {
       "ReadMore": "Ətraflı oxu",
