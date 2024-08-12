@@ -13,7 +13,7 @@ const Events = () => {
       </h3>
       <div className="grid m-auto events-section place-content-center xs:block md:block lg:grid grid-cols-3 xl:grid xl:grid-cols-3">
         {eventsData.map((event) => (
-          <EventCard key={event.id} event={event} />
+          <EventCard key={event.id} event={event} t={t}/>
         ))}
       </div>
     </PageContainer>

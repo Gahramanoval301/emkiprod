@@ -18,9 +18,9 @@
     "sponsors": "SponsСпонсорыors",
     "buytickets": "Купи билет"
   },
-  "about":{
-    "unleashyoureventspotential":"Раскройте потенциал вашего мероприятия: ",
-    "elevateyourstreamingwithourexpertise":"Улучшите вашу трансляцию нашим опытом",
+  "about": {
+    "unleashyoureventspotential": "Раскройте потенциал вашего мероприятия: ",
+    "elevateyourstreamingwithourexpertise": "Улучшите вашу трансляцию нашим опытом",
     "ourevents": "Наши мероприятия"
   },
   "home": {
@@ -38,7 +38,7 @@
     "weapproacheveryengagementwithconfidenceinourabilitytoforgealongtermrelationships": "Мы подходим к каждой работе доверяя нашим способностям создавать длительные отношения.",
     "haveaproject": "У вас есть проект?",
     "sponsorText": "Продемонстрируйте свое мероприятие всему миру через любую платформу. Мы являемся лидером в предоставлении услуг потоковой передачи и трансляции событий, консалтинговых услуг и разработки комплексных систем для наших клиентов в области трансляции событий. Продемонстрируйте свое мероприятие всему миру через любую платформу. Мы являемся лидером в предоставлении услуг потоковой передачи и трансляции событий, консалтинговых услуг и разработки комплексных систем для наших клиентов в области трансляции событий.",
-    "showyoureventtotheworldthroughanyplatformweareleadersinstreamingandbroadcastservicesforeventsofferingconsultingservicesanddevelopmentofcompletesystemsforourclientsineventbroadcasting":"Покажите свое мероприятие миру через любую платформу. Мы являемся лидерами в сфере стриминговых и трансляционных услуг для мероприятий, предлагая консультационные услуги и разработку комплексных систем для наших клиентов в сфере трансляций мероприятий."
+    "showyoureventtotheworldthroughanyplatformweareleadersinstreamingandbroadcastservicesforeventsofferingconsultingservicesanddevelopmentofcompletesystemsforourclientsineventbroadcasting": "Покажите свое мероприятие миру через любую платформу. Мы являемся лидерами в сфере стриминговых и трансляционных услуг для мероприятий, предлагая консультационные услуги и разработку комплексных систем для наших клиентов в сфере трансляций мероприятий."
   },
   "events": {
     "event": "Мероприятия",
@@ -111,15 +111,22 @@
     ]
   },
   "blogs": {
-    "id" : [ 1, 2, 3, 4, 5 ],
-    "url" : [
+    "blog": "Блог",
+    "readmore": "Больше",
+    "id": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "url": [
       "https://emkistorage.blob.core.windows.net/web/220722-220919-TML2022-1180-ALIVECOVERAGE (1)20231222180004430.jpg",
       "https://emkistorage.blob.core.windows.net/web/IMG-387020231222172942745.JPG",
       "https://emkistorage.blob.core.windows.net/web/thomasss120231026114519269.jpg",
       "https://emkistorage.blob.core.windows.net/web/channels4_profile20231026120221469.jpg",
       "https://emkistorage.blob.core.windows.net/web/374740470_18291827344132244_2475564944783895848_n20231026115854571.jpg"
-    ], 
-    "blog": "Блог",
+    ],
     "cardElement": {
       "ReadMore": "Читать далее",
       "title": [

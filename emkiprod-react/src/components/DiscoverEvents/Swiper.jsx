@@ -42,7 +42,7 @@ export default function DiscoverSectionSwiper() {
     <Swiper
       ref={swiperRef}
       slidesPerView={3}
-      spaceBetween={30}
+      spaceBetween={10}
       pagination={{
         clickable: true,
       }}

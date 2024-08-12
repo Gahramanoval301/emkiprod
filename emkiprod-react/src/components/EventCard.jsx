@@ -3,7 +3,7 @@ import React from "react";
 function EventCard({ event, t }) {
   return (
     <div
-      className="section hover:cursor-pointer w-[450px] section-reused"
+      className="section hover:cursor-pointer w-[475px] section-reused"
       key={event.id}
     >
       <div className="h-[380px] event-box">

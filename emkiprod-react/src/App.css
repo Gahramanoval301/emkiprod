@@ -92,7 +92,7 @@ a {
 }
 
 .event {
-  width: 360px;
+  width: 380px;
 }
 
 .events-section {
@@ -101,7 +101,7 @@ a {
 
 .event-box img {
   height: 375px !important;
-  width: 360px !important;
+  width: 380px !important;
   object-fit: cover !important;
   border-radius: 1.5rem !important;
 }
