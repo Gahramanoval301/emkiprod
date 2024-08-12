@@ -1,25 +1,40 @@
 import React from "react";
+import { useNavigate } from "react-router";
 
-function BlogCard() {
+function BlogCard({ blog, slide = false, t }) {
+  const { id, url, title, desc } = blog;
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate(`blog/${id}`, { state: { id, url, title, desc } });
+  };
+
   return (
-    <a className="h-[320px] inline-block">
-      <div className="bg-[#101426] rounded-[50px] h-[320px] m-[0 0 40px] w-[370px] cursor-pointer transition ease-in-out delay-400">
-        <div className="relative flex items-center justify-center z-[100]">
-          <img src="/assets/blog-card-img.png" alt="card image" className="" />
-        </div>
-        <div className="z-[102] flex items-center justify-between relative top-[-60px] p-[15px]">
-          <h4 className="whitespace-nowrap text-white_ font-medium text-2xl overflow-hidden">
-            Thomas Anders&apos;s Baku concert
-          </h4>
-        </div>
-        <div className="bg-[#101426] flex h-[90px] relative top-[-80px] items-end border-[1px] border-solid border-[#192038] rounded-b-3xl px-[20px] py-[10px] transition ease-in-out delay-400 hover:bg-[#fff]">
-          <p className="whitespace-normal text-[#edf1f7] h-[3rem] w-full hover:text-[#151a30] text-sm">
-            Show your event to the world through any platform. We are leaders in
-            streaming and...
+    <div
+      className={`cursor-pointer ${
+        slide ? "w-[88%]" : "w-full sm:w-[46%] lg:w-[30%]"
+      } rounded-[30px] border-[1px] overflow-hidden border-primary-light blog-card-element`}
+    >
+      <div className="h-[272px] relative blog-card-main">
+        <img src={url} className="w-full h-full rounded-3xl object-cover " />
+        <button
+          onClick={() => handleClick()}
+          className="bg-[#e32682] rounded-lg text-white text-xl font-medium py-[10px] px-5 text-center absolute top-2/4 left-2/4 -translate-y-1/2 -translate-x-1/2 z-50 duration-500  opacity-0"
+        >
+          {t("blogs.readmore")}
+        </button>
+        <div className=" w-full absolute bottom-[10px] text-overlay z-50">
+          <p className="text-white font-medium text-2xl text-center whitespace-nowrap">
+            {title.length > 25 ? title.slice(0, 25) + "..." : title}
           </p>
         </div>
       </div>
-    </a>
+      <div className="more-text">
+        <p className="text-white font-normal text-base mx-4 my-3">
+          {desc.length > 70 ? title.slice(0, 70) + "..." : title}
+        </p>
+      </div>
+    </div>
   );
 }
 

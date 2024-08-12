@@ -1,16 +1,18 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, A11y } from "swiper/modules";
-import BlogCard from "./BlogCard";
+import { useBlogsData } from "../hooks/useBlogsData";
 import "swiper/css";
 import "swiper/css/pagination";
+import BlogCard from "./BlogCard";
 
 const BlogsSlider = () => {
+  const { blogData, t } = useBlogsData();
   return (
     <Swiper
       modules={[Navigation, Pagination, A11y]}
       pagination={{ clickable: true }}
       slidesPerView={3}
-      spaceBetween={20}
+      spaceBetween={10}
       autoplay={true}
       loop={true}
       breakpoints={{
@@ -25,20 +27,13 @@ const BlogsSlider = () => {
           slidesPerView: 3,
         },
       }}
-      className="pb-3"
+      className="pb-16"
     >
-      <SwiperSlide>
-        <BlogCard />
-      </SwiperSlide>
-      <SwiperSlide>
-        <BlogCard />
-      </SwiperSlide>
-      <SwiperSlide>
-        <BlogCard />
-      </SwiperSlide>
-      <SwiperSlide>
-        <BlogCard />
-      </SwiperSlide>
+      {blogData.map((blog) => (
+        <SwiperSlide key={blog.id}>
+          <BlogCard blog={blog} slide={true} t={t}/>
+        </SwiperSlide>
+      ))}
     </Swiper>
   );
 };

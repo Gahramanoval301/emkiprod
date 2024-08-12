@@ -110,6 +110,8 @@
     ]
   },
   "blogs": {
+    "blog": "Bloq",
+    "readmore": "Daha Çox",
     "id": [
       1,
       2,
@@ -124,7 +126,6 @@
       "https://emkistorage.blob.core.windows.net/web/channels4_profile20231026120221469.jpg",
       "https://emkistorage.blob.core.windows.net/web/374740470_18291827344132244_2475564944783895848_n20231026115854571.jpg"
     ],
-    "blog": "Bloq",
     "cardElement": {
       "ReadMore": "Ətraflı oxu",
       "title": [
