@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 function EventCard({ event, t }) {
+
+  const { ticketURL } = t("events", { returnObjects: true })
+
   return (
     <div
       className="section hover:cursor-pointer w-[475px] section-reused"
@@ -23,7 +26,7 @@ function EventCard({ event, t }) {
       <div className="border-[1px] rounded-3xl border-primary-light py-2 px-5  text-white_  hover:bg-primary-light event">
         <div className="flex justify-between font-semibold my-2">
           <p className="font-extrabold text-xl">{event.title}</p>
-          <p className="text-pink">{event.price}</p>
+          <p className="text-pink">{event.ticketURL ? event.price : ""}</p>
         </div>
         <div className="flex justify-start gap-1 my-2 text-sm">
           <p>{event.date}</p>

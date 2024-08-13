@@ -32,7 +32,7 @@
     "collaboration": "Collaboration",
     "weapproacheveryengagementwithconfidenceinourabilitytoforgealongtermrelationships": "We approach every engagement with confidence in our ability to forge a long-term relationships.",
     "haveaproject": "Have a Project?",
-    "sponsorText": "Show your event to the world through any platform. We are leaders in streaming and broadcast services for events, offering consulting services and development of complete systems for our clients in event broadcasting. Show your event to the world through any platform. We are leaders in streaming and broadcast services for events, offering consulting services and development of complete systems for our clients in event broadcasting."
+    "sponsorText": "Show your event to the world through any platform. We are leaders in streaming and broadcast services for events, offering consulting services and development of complete systems for our clients in event broadcasting.Show your event to the world through any platform. We are leaders in streaming and broadcast services for events, offering consulting services and development of complete systems for our clients in event broadcasting."
   },
   "about": {
     "unleashyoureventspotential": "Unleash Your Event's Potential: ",
@@ -107,6 +107,10 @@
       "Baku Congress Center",
       "Heydar Aliyev Palace",
       "Ramada by Wyndham"
+    ],
+    "ticketURL": [
+      "https://iticket.az/events/concerts/kirac-24/118187",
+      "https://iticket.az/events/concerts/rafet-el-roman-64"
     ]
   },
   "blogs": {

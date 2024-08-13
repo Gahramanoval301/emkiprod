@@ -9,6 +9,7 @@ export function useEventsData() {
     price: prices,
     date: dates,
     location: locations,
+    ticketURL: ticketURLs,
   } = t("events", { returnObjects: true });
   const eventsData =
     Array.isArray(ids) &&
@@ -16,7 +17,8 @@ export function useEventsData() {
     Array.isArray(titles) &&
     Array.isArray(prices) &&
     Array.isArray(dates) &&
-    Array.isArray(locations)
+    Array.isArray(locations) &&
+    Array.isArray(ticketURLs)
       ? ids.map((id, index) => ({
           id,
           thumbnail: thumbnails[index],
@@ -24,6 +26,7 @@ export function useEventsData() {
           price: prices[index],
           date: dates[index],
           location: locations[index],
+          ticketURL: ticketURLs[index]
         }))
       : [];
 
