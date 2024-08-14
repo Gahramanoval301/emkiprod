@@ -201,8 +201,12 @@ a {
     max-width: 300px !important;
   }
 }
+.our-values-image img {
+  max-width: 100px !important;
+  min-height: 120px !important;
+}
 
-@media screen and (min-width: 992px) and (max-width: 1024px) {
+@media screen and (min-width: 992px) and (max-width: 1280px) {
   .our-values-image img {
     max-width: 100px !important;
     min-height: 120px !important;
@@ -210,28 +214,45 @@ a {
   .our-values {
     column-gap: 25px !important;
     display: grid !important;
-    width: 800px !important;
+    width: 95vw !important;
+    max-width: 1200px !important;
   }
   .line {
     width: 200px !important;
   }
+  .our-values-section {
+    margin-left: 0 !important;
+  }
 }
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
   .our-values-image img {
     max-width: 100px !important;
     min-height: 120px !important;
   }
   .value-box {
     display: grid !important;
-    grid-template-columns: repeat(2, 325px) !important;
+    grid-template-columns: repeat(2, 305px) !important;
     column-gap: 20px;
   }
   .our-values {
-    width: 768px !important;
-    column-gap: 40px !important;
+    width: 95vw !important;
+    max-width: 940px !important;
+    padding: 0 !important;
   }
   .line {
     width: 180px !important;
+  }
+  .our-values-section {
+    margin-left: 0 !important;
+    padding: 2rem !important;
+  }
+  .our-values p {
+    width: 220px !important;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 }
 @media screen and (min-width: 800px) and (max-width: 991px) {
@@ -239,14 +260,14 @@ a {
     display: grid !important;
     grid-template-columns: repeat(2, 350px) !important;
   }
-  .our-values {
-    width: 800px !important;
-  }
 }
-@media screen and (min-width: 600px) and (max-width: 768px) {
+@media screen and (min-width: 600px) and (max-width: 767px) {
   .our-values-image img {
     max-width: 100px !important;
     min-height: 120px !important;
+  }
+  .our-values-section {
+    margin-left: 2rem !important;
   }
   .our-values {
     width: 539px !important;
@@ -261,16 +282,24 @@ a {
     min-height: 120px !important;
   }
   .our-values {
-    width: 375px !important;
+    width: 370px !important;
     column-gap: 40px !important;
     display: block !important;
     min-height: 850px !important;
   }
   .line {
-    width: 200px;
+    width: 180px;
   }
   .our-values-content {
     width: 230px !important;
     white-space: wrap;
+  }
+  .our-values p {
+    width: 200px !important;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 }
