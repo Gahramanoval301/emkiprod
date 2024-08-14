@@ -200,6 +200,9 @@ a {
   .event {
     max-width: 300px !important;
   }
+  .event-box img {
+    width: 300px !important;
+  }
 }
 .our-values-image img {
   max-width: 100px !important;
@@ -276,6 +279,11 @@ a {
     min-height: 870px !important;
   }
 }
+@media screen and (min-width: 600px) and (max-width: 639px) {
+  .section-reused::before {
+    width: 90% !important;
+  }
+}
 @media screen and (min-width: 375px) and (max-width: 599px) {
   .our-values-image img {
     max-width: 100px !important;
@@ -301,5 +309,10 @@ a {
     -webkit-line-clamp: 3;
     overflow: hidden;
     text-overflow: ellipsis;
+  }
+}
+@media screen and (min-width: 431px) and (max-width: 599px) {
+  .section-reused::before {
+    width: 89% !important;
   }
 }
