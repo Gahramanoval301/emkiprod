@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
 
-const LanguageSelector = ({isMobileNavbar}) => {
+const LanguageSelector = ({ isMobileNavbar }) => {
     const { t, i18n } = useTranslation();
     const [flag, setFlag] = useState(true);
     const [index, setIndex] = useState(0);
@@ -13,9 +13,18 @@ const LanguageSelector = ({isMobileNavbar}) => {
         az: 'AZ'
     };
 
+    useEffect(() => {
+        const savedLanguage = localStorage.getItem('selectedLanguage');
+        if (savedLanguage && languages.includes(savedLanguage)) {
+            i18n.changeLanguage(savedLanguage);
+            setIndex(languages.indexOf(savedLanguage));
+        }
+    }, [i18n]);
+
     const handleLanguageChange = (lng) => {
         setFlag(true);
         i18n.changeLanguage(lng);
+        localStorage.setItem('selectedLanguage', lng); 
     };
 
     return (
@@ -35,7 +44,6 @@ const LanguageSelector = ({isMobileNavbar}) => {
                     ))}
                 </div>
             </div>
-         
         </div>
     );
 };
