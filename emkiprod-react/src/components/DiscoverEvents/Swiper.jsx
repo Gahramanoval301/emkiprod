@@ -16,7 +16,7 @@ import "../../styles/swiper.css";
 import EventCard from "../EventCard";
 import { useEventsData } from "../../hooks/useEventsData";
 
-export default function DiscoverSectionSwiper() {
+export default function DiscoverSectionSwiper({data}) {
   const swiperRef = useRef(null); // Ref to access Swiper instance
   const [isEnd, setIsEnd] = useState(false); // Initialize with false
   const { eventsData, t } = useEventsData();
@@ -60,10 +60,10 @@ export default function DiscoverSectionSwiper() {
         320: {
           slidesPerView: 1,
         },
-        768: {
+        1020: {
           slidesPerView: 2,
         },
-        1280: {
+        1300: {
           slidesPerView: 3,
         },
       }}
