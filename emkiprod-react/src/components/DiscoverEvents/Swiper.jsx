@@ -15,13 +15,39 @@ import "swiper/css/pagination";
 import "../../styles/swiper.css";
 import EventCard from "../EventCard";
 import { useEventsData } from "../../hooks/useEventsData";
+import { getAnnouncementTranslationsId } from "../../api/data";
 
-export default function DiscoverSectionSwiper({data}) {
+export default function DiscoverSectionSwiper({ data }) {
   const swiperRef = useRef(null); // Ref to access Swiper instance
   const [isEnd, setIsEnd] = useState(false); // Initialize with false
-  const { eventsData, t } = useEventsData();
+
+  const [eventsInfo, setEventsInfo] = useState([]);
+  const { t, i18n } = useTranslation();
+  console.log(i18n.language);
+
+  const getLanguageId = () => {
+    switch (i18n.language) {
+      case "en":
+        return 6;
+      case "ru":
+        return 7;
+      case "az":
+        return 5;
+      default:
+        return ""
+    }
+  }
+  const currentLanguageId = getLanguageId();
+  
+
+  // const { eventsData, t } = useEventsData();
 
   useEffect(() => {
+    getAnnouncementTranslationsId(currentLanguageId)
+      .then((data) => {
+        setEventsInfo(data);
+      });
+
     const swiper = swiperRef.current?.swiper; // Access Swiper instance
 
     if (swiper) {
@@ -31,6 +57,8 @@ export default function DiscoverSectionSwiper({data}) {
 
       // Attach event listener
       swiper.on("reachEnd", handleReachEnd);
+
+
 
       return () => {
         swiper.off("reachEnd", handleReachEnd);
@@ -69,13 +97,12 @@ export default function DiscoverSectionSwiper({data}) {
       }}
     >
       <button
-        className={`next-btn absolute z-40 right-5 top-[45%] py-3 px-6 rounded-3xl border-2 text-white_ transition-classic ${
-          isEnd ? "bg-pink" : "bg-primary-default"
-        }`}
+        className={`next-btn absolute z-40 right-5 top-[45%] py-3 px-6 rounded-3xl border-2 text-white_ transition-classic ${isEnd ? "bg-pink" : "bg-primary-default"
+          }`}
       >
         <FaArrowRightLong />
       </button>
-      {eventsData.map((event) => (
+      {eventsInfo.map((event) => (
         <SwiperSlide key={event.id}>
           <EventCard event={event} t={t} />
         </SwiperSlide>
