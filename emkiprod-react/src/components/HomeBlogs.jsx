@@ -7,7 +7,7 @@ import { useBlogsDataApi } from "../hooks/useBlogsDataApi";
 
 function HomeBlogs() {
   const blogsDataApi = useBlogsDataApi()
-
+      
   return (
     <section id="blogs">
       <div className="mx-auto w-11/12 sm:w-11/12 section">
