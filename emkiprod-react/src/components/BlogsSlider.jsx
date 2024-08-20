@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import BlogCard from "./BlogCard";
 
-const BlogsSlider = () => {
+const BlogsSlider = ({postTranslations}) => {
   const { blogData, t } = useBlogsData();
   return (
     <Swiper
@@ -29,7 +29,7 @@ const BlogsSlider = () => {
       }}
       className="pb-16"
     >
-      {blogData.map((blog) => (
+      {postTranslations && postTranslations.map((blog) => (
         <SwiperSlide key={blog.id}>
           <BlogCard blog={blog} slide={true} t={t}/>
         </SwiperSlide>

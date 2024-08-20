@@ -39,7 +39,7 @@ const Blogs = () => {
           {t("blogs.blog")}
         </h1>
         <div className="blog-card flex flex-wrap gap-8">
-          {blogData.map((blog) => (
+          {filteredPageData && filteredPageData.postTranslations.map((blog) => (
             <BlogCard key={blog.id} blog={blog} t={t}/>
           ))}
         </div>

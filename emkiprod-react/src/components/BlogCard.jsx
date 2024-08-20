@@ -2,11 +2,11 @@ import React from "react";
 import { useNavigate } from "react-router";
 
 function BlogCard({ blog, slide = false, t }) {
-  const { id, url, title, desc } = blog;
+  const { id, imageSrc, title, content } = blog;
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate(`blog/${id}`, { state: { id, url, title, desc } });
+    navigate(`blog/${id}`, { state: { id, imageSrc, title, content } });
   };
 
   return (
@@ -16,7 +16,7 @@ function BlogCard({ blog, slide = false, t }) {
       } rounded-[30px] border-[1px] overflow-hidden border-primary-light blog-card-element`}
     >
       <div className="h-[272px] relative blog-card-main">
-        <img src={url} className="w-full h-full rounded-3xl object-cover " />
+        <img src={imageSrc} className="w-full h-full rounded-3xl object-cover " />
         <button
           onClick={() => handleClick()}
           className="bg-[#e32682] rounded-lg text-white text-xl font-medium py-[10px] px-5 text-center absolute top-2/4 left-2/4 -translate-y-1/2 -translate-x-1/2 z-50 duration-500  opacity-0"
@@ -31,7 +31,7 @@ function BlogCard({ blog, slide = false, t }) {
       </div>
       <div className="more-text">
         <p className="text-white font-normal text-base mx-4 my-3">
-          {desc.length > 70 ? title.slice(0, 70) + "..." : title}
+          {content.length > 70 ? title.slice(0, 70) + "..." : title}
         </p>
       </div>
     </div>
