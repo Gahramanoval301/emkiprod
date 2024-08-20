@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import SectionTitle from "./SectionTitle";
 import BlogsSlider from "./BlogsSlider";
-import { getAllPageData } from "../api/data";
-import { useTranslation } from "react-i18next";
 import { useBlogsDataApi } from "../hooks/useBlogsDataApi";
 
 function HomeBlogs() {
