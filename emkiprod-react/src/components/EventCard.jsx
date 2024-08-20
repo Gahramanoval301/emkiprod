@@ -2,8 +2,6 @@ import React, { useEffect } from "react";
 
 function EventCard({ event, t }) {
 
-  // const { ticketURL } = t("events", { returnObjects: true })
-
   const getCreatedTime = (eventStr) => {
     const date = new Date(eventStr);
     console.log(eventStr);
@@ -13,8 +11,6 @@ function EventCard({ event, t }) {
     const day = date.getUTCDate().toString().padStart(2, "0")
     return `${day}.${month}.${year}`
 
-    // const options = { year: 'numeric', month: 'long', day: 'numeric' };
-    // return date.toLocaleDateString("en-US", options);
   }
   return (
     <div
