@@ -30,7 +30,7 @@ const Events = () => {
     getAnnouncementTranslationsId(langId).then((eventData) => {
       setEventData(eventData);
     });
-  }, []);
+  }, [i18n.language]);
 
   return (
     <PageContainer>
