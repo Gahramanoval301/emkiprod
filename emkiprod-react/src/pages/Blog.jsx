@@ -13,7 +13,6 @@ function Blog() {
     const { id: ids, url: urls, cardElement: { title: titles, desc: descriptions } } = t('blogs', { returnObjects: true });
     
     const updatedDesc = descriptions[id - 1].split('bosluq')
-    
 
     const blogData = Array.isArray(ids) && Array.isArray(urls) && Array.isArray(titles) && Array.isArray(descriptions)
         ? ids.map((id, index) => ({ id, url: urls[index], title: titles[index], desc: descriptions[index], })) : [];
