@@ -6,7 +6,7 @@ function Blog() {
 
     const location = useLocation();
 
-    const { id, url, title, desc } = location.state
+    const { id, imageSrc, title, content } = location.state
     
     const { t } = useTranslation();
     
@@ -22,7 +22,7 @@ function Blog() {
     return (
         <PageContainer>
             <div className="m-auto w-11/12 sm:w-4/5 pt-24 xl:mb-0 sm:pt-24 md:pt-20 xl:pt-14">
-                <img className="rounded-[28px] w-full h-auto" src={url} alt="Image" />
+                <img className="rounded-[28px] w-full h-auto" src={imageSrc} alt="Image" />
                 <h1 className="text-xl md:text-4xl text-white mb-16 mt-10">{titles[id - 1]}</h1>
                 {updatedDesc.map((text, i) => <p key={i} className="text-white my-6 text-sm md:text-base">{text}</p>)}
             </div>
